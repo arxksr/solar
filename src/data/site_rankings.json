@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Degala",
+    "region": "Degala",
+    "coordinates": [
+      44.498525,
+      36.121055
+    ],
+    "GHI": 1905.51,
+    "DNI": 2002.3,
+    "DIF": 651.97,
+    "GTI": 2170.68,
+    "OPTA": 32,
+    "PVOUT_YEARLY": 1702.8,
+    "ELEVATION": 839,
+    "TEMPERATURE": 18.4,
+    "SLOPE": 10.44
+  },
+  {
+    "name": "Zirguz",
+    "region": "Zirguz",
+    "coordinates": [
+      44.110194,
+      36.533453
+    ],
+    "GHI": 1864.6,
+    "DNI": 1921.58,
+    "DIF": 658.91,
+    "GTI": 2114.8,
+    "OPTA": 32,
+    "PVOUT_YEARLY": 1641.43,
+    "ELEVATION": 589,
+    "TEMPERATURE": 20.8,
+    "SLOPE": 11.89
+  },
+  {
+    "name": "Daratu",
+    "region": "Daratu",
+    "coordinates": [
+      43.873083,
+      36.594092
+    ],
+    "GHI": 1882.5,
+    "DNI": 1987.69,
+    "DIF": 649.78,
+    "GTI": 2144.02,
+    "OPTA": 32,
+    "PVOUT_YEARLY": 1689.65,
+    "ELEVATION": 722,
+    "TEMPERATURE": 17.8,
+    "SLOPE": 4.66
+  },
+  {
+    "name": "Bekhme",
+    "region": "Bekhme",
+    "coordinates": [
+      44.172406,
+      36.717706
+    ],
+    "GHI": 1833.92,
+    "DNI": 1858.03,
+    "DIF": 605.58,
+    "GTI": 2112.61,
+    "OPTA": 32,
+    "PVOUT_YEARLY": 1720.69,
+    "ELEVATION": 1250,
+    "TEMPERATURE": 13.8,
+    "SLOPE": 26.66
+  },
+  {
+    "name": "Atrush",
+    "region": "Atrush",
+    "coordinates": [
+      43.505339,
+      36.848319
+    ],
+    "GHI": 1870.81,
+    "DNI": 1990.25,
+    "DIF": 599.74,
+    "GTI": 2137.44,
+    "OPTA": 31,
+    "PVOUT_YEARLY": 1712.29,
+    "ELEVATION": 1164,
+    "TEMPERATURE": 14.3,
+    "SLOPE": 17.21
+  },
+  {
+    "name": "Ashkafta",
+    "region": "Ashkafta",
+    "coordinates": [
+      43.558394,
+      36.900661
+    ],
+    "GHI": 1853.64,
+    "DNI": 1990.61,
+    "DIF": 607.05,
+    "GTI": 2102.74,
+    "OPTA": 31,
+    "PVOUT_YEARLY": 1668.1,
+    "ELEVATION": 961,
+    "TEMPERATURE": 13.5,
+    "SLOPE": 17.89
+  },
+  {
+    "name": "Gare",
+    "region": "Gare",
+    "coordinates": [
+      43.461294,
+      36.964583
+    ],
+    "GHI": 1848.9,
+    "DNI": 2009.61,
+    "DIF": 593.17,
+    "GTI": 2093.98,
+    "OPTA": 31,
+    "PVOUT_YEARLY": 1688.55,
+    "ELEVATION": 1471,
+    "TEMPERATURE": 11.7,
+    "SLOPE": 22.19
+  },
+  {
+    "name": "Mizuri Jeri",
+    "region": "Mizuri Jeri",
+    "coordinates": [
+      43.198031,
+      36.864325
+    ],
+    "GHI": 1871.18,
+    "DNI": 1982.21,
+    "DIF": 618,
+    "GTI": 2118.45,
+    "OPTA": 31,
+    "PVOUT_YEARLY": 1677.23,
+    "ELEVATION": 890,
+    "TEMPERATURE": 16.6,
+    "SLOPE": 13.88
+  },
+  {
+    "name": "Gare 2",
+    "region": "Gare 2",
+    "coordinates": [
+      43.742822,
+      36.970889
+    ],
+    "GHI": 1774.75,
+    "DNI": 1762.33,
+    "DIF": 576,
+    "GTI": 2018.74,
+    "OPTA": 31,
+    "PVOUT_YEARLY": 1643.99,
+    "ELEVATION": 1188,
+    "TEMPERATURE": 14.1,
+    "SLOPE": 8.63
+  },
+  {
+    "name": "Dedawan",
+    "region": "Dedawan",
+    "coordinates": [
+      44.278842,
+      35.965478
+    ],
+    "GHI": 1915.37,
+    "DNI": 1989.52,
+    "DIF": 672.06,
+    "GTI": 2180.18,
+    "OPTA": 32,
+    "PVOUT_YEARLY": 1710.1,
+    "ELEVATION": 692,
+    "TEMPERATURE": 19.4,
+    "SLOPE": 7.06
+  },
+  {
+    "name": "Sulaymaniyah Suburbs",
+    "region": "Sulaymaniyah Suburbs",
+    "coordinates": [
+      45.710128,
+      35.431708
+    ],
+    "GHI": 1929.98,
+    "DNI": 2009.97,
+    "DIF": 647.59,
+    "GTI": 2188.58,
+    "OPTA": 32,
+    "PVOUT_YEARLY": 1713.02,
+    "ELEVATION": 874,
+    "TEMPERATURE": 18.6,
+    "SLOPE": 15.99
+  },
+  {
+    "name": "Darbandikhan",
+    "region": "Darbandikhan",
+    "coordinates": [
+      45.533603,
+      35.088264
+    ],
+    "GHI": 1939.84,
+    "DNI": 2043.21,
+    "DIF": 665.49,
+    "GTI": 2198.8,
+    "OPTA": 31,
+    "PVOUT_YEARLY": 1717.77,
+    "ELEVATION": 820,
+    "TEMPERATURE": 19.4,
+    "SLOPE": 3.12
+  },
+  {
+    "name": "Kalar",
+    "region": "Kalar",
+    "coordinates": [
+      45.642083,
+      34.848997
+    ],
+    "GHI": 1933.63,
+    "DNI": 1965.78,
+    "DIF": 700.18,
+    "GTI": 2196.61,
+    "OPTA": 32,
+    "PVOUT_YEARLY": 1696.22,
+    "ELEVATION": 517,
+    "TEMPERATURE": 22.4,
+    "SLOPE": 3.98
+  },
+  {
+    "name": "Puka",
+    "region": "Puka",
+    "coordinates": [
+      45.26065,
+      34.791131
+    ],
+    "GHI": 1939.11,
+    "DNI": 1941.67,
+    "DIF": 712.97,
+    "GTI": 2199.9,
+    "OPTA": 32,
+    "PVOUT_YEARLY": 1701.7,
+    "ELEVATION": 507,
+    "TEMPERATURE": 22.6,
+    "SLOPE": 7.58
+  },
+  {
+    "name": "Kalar 2",
+    "region": "Kalar 2",
+    "coordinates": [
+      45.180361,
+      34.763967
+    ],
+    "GHI": 1934.73,
+    "DNI": 1911.72,
+    "DIF": 722.47,
+    "GTI": 2193.33,
+    "OPTA": 32,
+    "PVOUT_YEARLY": 1695.49,
+    "ELEVATION": 429,
+    "TEMPERATURE": 23.1,
+    "SLOPE": 9.86
+  },
+  {
+    "name": "Pesh Xabur",
+    "region": "Pesh Xabur",
+    "coordinates": [
+      42.535139,
+      37.088969
+    ],
+    "GHI": 1862.78,
+    "DNI": 1966.87,
+    "DIF": 612.52,
+    "GTI": 2136.35,
+    "OPTA": 32,
+    "PVOUT_YEARLY": 1703.89,
+    "ELEVATION": 814,
+    "TEMPERATURE": 16.4,
+    "SLOPE": 24
+  }
+]

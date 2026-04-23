@@ -1,0 +1,993 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zakho",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          42.683043479919434,
+          37.14215346535975
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Mosul Dam",
+          "Zakho"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            42.683043479919434,
+            37.14215346535975
+          ],
+          [
+            43.00048828125,
+            36.67833199181616
+          ],
+          [
+            42.949676513671875,
+            36.59458146560139
+          ],
+          [
+            42.85285949707031,
+            36.61111838494165
+          ],
+          [
+            42.833547592163086,
+            36.62586081464527
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mosul Dam",
+        "nodeType": "dam"
+      },
+      "geometry": {
+        "coordinates": [
+          42.833547592163086,
+          36.62586081464527
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "double",
+        "nodes": [
+          "Mosul",
+          "Mosul Dam"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            42.833547592163086,
+            36.62586081464527
+          ],
+          [
+            43.1268310546875,
+            36.34582612263258
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mosul",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          43.1268310546875,
+          36.34582612263258
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 150,
+        "lineType": "double",
+        "nodes": [
+          "Mosul",
+          "Erbil"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            43.1268310546875,
+            36.34582612263258
+          ],
+          [
+            44.00942802429199,
+            36.19109202182454
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Mosul",
+          "Kirkuk"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            43.1268310546875,
+            36.34582612263258
+          ],
+          [
+            44.39467906951904,
+            35.472763522863204
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kirkuk",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          44.39467906951904,
+          35.472763522863204
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Sulaymaniyah",
+          "Kirkuk"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            44.394593238830566,
+            35.47269362305203
+          ],
+          [
+            45.443068742752075,
+            35.55694862700783
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sulaymaniyah",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          45.443068742752075,
+          35.55694862700783
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "double",
+        "nodes": [
+          "Mosul",
+          "Baiji"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            43.1268310546875,
+            36.34582612263258
+          ],
+          [
+            43.49407911300659,
+            34.92957122347638
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baiji",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          43.49407911300659,
+          34.92957122347638
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Sulaymaniyah",
+          "Baiji"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            43.49407911300659,
+            34.92957122347638
+          ],
+          [
+            45.443068742752075,
+            35.55694862700783
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Haditha",
+          "Baiji"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            43.49407911300659,
+            34.92957122347638
+          ],
+          [
+            42.387657165527344,
+            34.2140734536726
+          ],
+          [
+            42.355191707611084,
+            34.20738360184931
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haditha",
+        "nodeType": "dam"
+      },
+      "geometry": {
+        "coordinates": [
+          42.355191707611084,
+          34.20738360184931
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Haditha",
+          "Al Qa'im"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            42.355191707611084,
+            34.20738360184931
+          ],
+          [
+            42.326202392578125,
+            34.18368980421167
+          ],
+          [
+            41.11564636230468,
+            34.35590789074156
+          ],
+          [
+            40.99865913391113,
+            34.39554320358349
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al Qa'im",
+        "nodeType": "town"
+      },
+      "geometry": {
+        "coordinates": [
+          40.99848747253418,
+          34.39554320358349
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Haditha",
+          "Ramadi"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            42.355191707611084,
+            34.20738360184931
+          ],
+          [
+            42.326202392578125,
+            34.18340579323081
+          ],
+          [
+            42.342681884765625,
+            34.06176136129718
+          ],
+          [
+            42.51708984375,
+            33.84988869610126
+          ],
+          [
+            42.9180908203125,
+            33.516209361109055
+          ],
+          [
+            43.286776542663574,
+            33.41851122467171
+          ],
+          [
+            43.307204246520996,
+            33.42023057480394
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ramadi",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          43.307204246520996,
+          33.42023057480394
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Fallujah",
+          "Ramadi"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            43.307204246520996,
+            33.42023057480394
+          ],
+          [
+            43.740692138671875,
+            33.330528249028085
+          ],
+          [
+            43.78708362579346,
+            33.352684686830415
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fallujah",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          43.78708362579346,
+          33.352684686830415
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Baghdad",
+          "Fallujah"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            43.78708362579346,
+            33.352684686830415
+          ],
+          [
+            44.382662773132324,
+            33.30280684237682
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baghdad",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          44.382662773132324,
+          33.30280684237682
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "double",
+        "nodes": [
+          "Baghdad",
+          "Baiji"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            43.49407911300659,
+            34.92957122347638
+          ],
+          [
+            43.79425048828125,
+            34.129994745824746
+          ],
+          [
+            44.382662773132324,
+            33.30280684237682
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Sulaymaniyah",
+          "Baqubah"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            45.443068742752075,
+            35.55694862700783
+          ],
+          [
+            44.6409273147583,
+            33.745289176467644
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baqubah",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          44.6409273147583,
+          33.745289176467644
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "double",
+        "nodes": [
+          "Baghdad",
+          "Baqubah"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            44.6409273147583,
+            33.745289176467644
+          ],
+          [
+            44.382662773132324,
+            33.30280684237682
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "double",
+        "nodes": [
+          "Baghdad",
+          "Karbala"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            44.382662773132324,
+            33.30280684237682
+          ],
+          [
+            44.017581939697266,
+            32.59733623363518
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karbala",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          44.017581939697266,
+          32.59733623363518
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "double",
+        "nodes": [
+          "Hillah",
+          "Karbala"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            44.017581939697266,
+            32.59733623363518
+          ],
+          [
+            44.43497657775878,
+            32.4880810100383
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hilla",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          44.43497657775878,
+          32.4880810100383
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "double",
+        "nodes": [
+          "Hillah",
+          "Al Diwaniyah"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            44.43497657775878,
+            32.4880810100383
+          ],
+          [
+            44.9270224571228,
+            31.98658451383647
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al Diwaniyah",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          44.9270224571228,
+          31.98658451383647
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Baghdad",
+          "Al Diwaniyah"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            44.382662773132324,
+            33.30280684237682
+          ],
+          [
+            44.9270224571228,
+            31.98658451383647
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 150,
+        "lineType": "double",
+        "nodes": [
+          "Najaf",
+          "Al Diwaniyah"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            44.9270224571228,
+            31.98658451383647
+          ],
+          [
+            44.330992698669434,
+            32.00087024421711
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Najaf",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          44.330992698669434,
+          32.00087024421711
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Nasiriyah",
+          "Al Diwaniyah"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            44.9270224571228,
+            31.98658451383647
+          ],
+          [
+            46.253557205200195,
+            31.04572773490754
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nasiriyah",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          46.253557205200195,
+          31.04572773490754
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Baghdad",
+          "Kut"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            44.382662773132324,
+            33.30280684237682
+          ],
+          [
+            45.78535079956055,
+            32.53480207681705
+          ],
+          [
+            45.832386016845696,
+            32.49579111568821
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kut",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          45.832386016845696,
+          32.49579111568821
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Nasiriyah",
+          "Kut"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            45.832386016845696,
+            32.49579111568821
+          ],
+          [
+            46.253557205200195,
+            31.04572773490754
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Amarah",
+          "Kut"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            45.832386016845696,
+            32.49579111568821
+          ],
+          [
+            47.10920333862305,
+            31.852481591049187
+          ],
+          [
+            47.15023040771484,
+            31.84940128579513
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amarah",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          47.15023040771484,
+          31.84940128579513
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Amarah",
+          "Basra"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            47.15023040771484,
+            31.84940128579513
+          ],
+          [
+            47.46368408203125,
+            31.353636941500987
+          ],
+          [
+            47.78228759765625,
+            30.71586528568626
+          ],
+          [
+            47.85893440246582,
+            30.535133348594492
+          ],
+          [
+            47.83550262451172,
+            30.517241246677933
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Basra",
+        "nodeType": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          47.83550262451172,
+          30.517241246677933
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transmissionPower": 400,
+        "lineType": "single",
+        "nodes": [
+          "Nasiriyah",
+          "Basra"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            46.253557205200195,
+            31.04572773490754
+          ],
+          [
+            46.39801025390624,
+            30.80555164278596
+          ],
+          [
+            46.69464111328125,
+            30.63082224973687
+          ],
+          [
+            47.72735595703124,
+            30.507850271871686
+          ],
+          [
+            47.83550262451172,
+            30.517241246677933
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
+}
