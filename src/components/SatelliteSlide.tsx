@@ -7746,6 +7746,23 @@ export function SatelliteSlide({
                   );
                 })}
 
+              {/* Active Layer Display */}
+              {activeLayer && layerConfigs[activeLayer] && selectedLocationData.data[activeLayer] !== undefined && (
+                <div className="p-3 bg-amber-50 rounded-lg border border-amber-200">
+                  <div className="text-[10px] font-bold text-amber-600 uppercase tracking-wider mb-1">
+                    {layerConfigs[activeLayer].shortName}
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm font-bold text-gray-900">
+                      {selectedLocationData.data[activeLayer].toFixed(2)}
+                    </span>
+                    <span className="text-xs text-gray-500">
+                      {layerConfigs[activeLayer].unit}
+                    </span>
+                  </div>
+                </div>
+              )}
+
               {/* Yearly Rainfall */}
               <div className="p-2 bg-blue-50 rounded-lg">
                 <button
