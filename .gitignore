@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment
+.env
+.env.*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Git (for zone extractor scripts, keep src code only)
+zone\ extractor/__pycache__/
+zone\ extractor/*.pyc
+zone\ extractor/*.tif
+zone\ extractor/*.shx
+zone\ extractor/*.dbf
+zone\ extractor/*.prj
+zone\ extractor/*.cpg
+zone\ extractor/*.shp
+zone\ extractor/*.png
+zone\ extractor/mcda_*.tif
+zone\ extractor/suitability_*.tif
+zone\ extractor/suitable_zones.*
+zone\ extractor/variables.txt
