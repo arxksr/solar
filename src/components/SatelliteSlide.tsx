@@ -6153,6 +6153,10 @@ export function SatelliteSlide({
   const extractLocationData = async (lat: number, lng: number) => {
     console.log("[DEBUG] extractLocationData called:", lat, lng);
     const data = await updateLocationData(lat, lng, CORE_PANEL_LAYERS);
+    if (activeLayer && !CORE_PANEL_LAYERS.includes(activeLayer)) {
+      const layerData = await updateLocationData(lat, lng, [activeLayer]);
+      Object.assign(data, layerData);
+    }
     console.log("[DEBUG] extractLocationData data:", data);
     setShowCityDetails(false);
     setSelectedLocationData({ lat, lng, data });
@@ -6189,6 +6193,13 @@ export function SatelliteSlide({
         .then(newData => setSelectedLocationData(prev => prev ? ({ ...prev, data: { ...prev.data, ...newData } }) : null));
     }
   }, [showSelectedTempYears]);
+
+  useEffect(() => {
+    if (selectedLocationData && activeLayer && !CORE_PANEL_LAYERS.includes(activeLayer as LayerType)) {
+      updateLocationData(selectedLocationData.lat, selectedLocationData.lng, [activeLayer as LayerType])
+        .then(newData => setSelectedLocationData(prev => prev ? ({ ...prev, data: { ...prev.data, ...newData } }) : null));
+    }
+  }, [activeLayer]);
 
   const goToDemoStep = (step: number) => {
     const targetStep = Math.max(0, Math.min(5, step));
