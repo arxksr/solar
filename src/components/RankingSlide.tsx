@@ -115,21 +115,19 @@ export function RankingSlide({ onBack, onNext }: { onBack: () => void, onNext: (
   const [siteRankings, setSiteRankings] = useState<any[]>([]);
   const [openLandclassDropdown, setOpenLandclassDropdown] = useState<string | null>(null);
 
-  const closeDropdown = React.useCallback((e: MouseEvent) => {
-    const dropdown = document.querySelector('.landclass-dropdown-content');
-    const button = document.querySelector('.landclass-dropdown-button');
-    if (dropdown && !(dropdown as HTMLElement).contains(e.target as Node) &&
-        button && !(button as HTMLElement).contains(e.target as Node)) {
-      setOpenLandclassDropdown(null);
-    }
-  }, []);
-
   React.useEffect(() => {
-    if (openLandclassDropdown) {
-      document.addEventListener('mousedown', closeDropdown);
-      return () => document.removeEventListener('mousedown', closeDropdown);
-    }
-  }, [openLandclassDropdown, closeDropdown]);
+    if (!openLandclassDropdown) return;
+    const handleClick = (e: MouseEvent) => {
+      const dropdown = document.querySelector('.landclass-dropdown-content');
+      const button = document.querySelector('.landclass-dropdown-button');
+      if (dropdown && !(dropdown as HTMLElement).contains(e.target as Node) &&
+          button && !(button as HTMLElement).contains(e.target as Node)) {
+        setOpenLandclassDropdown(null);
+      }
+    };
+    document.addEventListener('click', handleClick);
+    return () => document.removeEventListener('click', handleClick);
+  }, [openLandclassDropdown]);
 
   React.useEffect(() => {
     Promise.all([
@@ -524,31 +522,28 @@ return (
                               <span className="text-xs font-bold text-gray-900 flex flex-col">
                                 {metric === 'landclass_summary' ? (
                                   <>
-                                    <button
-                                      className="landclass-dropdown-button text-left hover:text-blue-600 cursor-pointer"
-                                      onMouseDown={(e) => {
-                                        e.stopPropagation();
-                                        setOpenLandclassDropdown(openLandclassDropdown === site.name ? null : site.name);
-                                      }}
-                                    >
-                                      {displayVal}
-                                    </button>
-                                    {openLandclassDropdown === site.name && (
-                                      <div
-                                        className="landclass-dropdown-content fixed bg-white border border-gray-200 rounded-lg shadow-lg py-1 min-w-[160px]"
-                                        style={{
-                                          left: '50%',
-                                          top: '100%',
-                                          transform: 'translateX(-50%)'
+                                    <div className="relative">
+                                      <button
+                                        className="landclass-dropdown-button text-left hover:text-blue-600 cursor-pointer text-xs font-bold text-gray-900"
+                                        onClick={(e) => {
+                                          e.stopPropagation();
+                                          setOpenLandclassDropdown(openLandclassDropdown === site.name ? null : site.name);
                                         }}
                                       >
-                                        {parseLandclassSummary(val).slice(1).map((item, i) => (
-                                          <div key={i} className="px-3 py-1 text-xs hover:bg-gray-100">
-                                            {item.name} {item.pct.toFixed(1)}%
-                                          </div>
-                                        ))}
-                                      </div>
-                                    )}
+                                        {displayVal}
+                                      </button>
+                                      {openLandclassDropdown === site.name && (
+                                        <div
+                                          className="landclass-dropdown-content absolute top-full left-1/2 -translate-x-1/2 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg py-1 min-w-[160px] z-50"
+                                        >
+                                          {parseLandclassSummary(val).slice(1).map((item, i) => (
+                                            <div key={i} className="px-3 py-1 text-xs hover:bg-gray-100 whitespace-nowrap">
+                                              {item.name} {item.pct.toFixed(1)}%
+                                            </div>
+                                          ))}
+                                        </div>
+                                      )}
+                                    </div>
                                   </>
                                 ) : (
                                   <span>{displayVal} <span className="text-[9px] text-gray-500 font-bold">{unit}</span></span>
