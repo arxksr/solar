@@ -1,26 +1,2521 @@
 {
-"type": "FeatureCollection",
-"name": "mcda_zones",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "suitability_class": 5, "class_label": "Highly Suitable", "area_km2": 8.5211, "zone_id": "Z0001", "centroid_lon": 45.036071, "centroid_lat": 35.492535, "bbox_min_lon": 45.018, "bbox_min_lat": 35.469747, "bbox_max_lon": 45.051, "bbox_max_lat": 35.513751, "governorate": "Sulaimaniya+Halabja", "score_100": 95.1832, "val_ghi": 1913.91, "min_ghi": 1912.81, "max_ghi": 1916.1, "val_dni": 1977.829, "min_dni": 1972.71, "max_dni": 1984.04, "val_gti": 2172.8721, "min_gti": 2172.14, "max_gti": 2176.16, "val_temperature": 20.0481, "min_temperature": 19.62, "max_temperature": 20.52, "val_pvout": 1690.92, "min_pvout": 1689.44, "max_pvout": 1698.63, "val_elevation": 703.8232, "min_elevation": 650.22, "max_elevation": 772.84, "val_slope": 3.8039, "min_slope": 2.32, "max_slope": 5.49, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 1.0, "val_soiltype": 9.5, "min_soiltype": 9.5, "max_soiltype": 9.5, "val_dustsoiling": 1.0843, "min_dustsoiling": 1.06, "max_dustsoiling": 1.1, "val_gridaccess": 4110.5322, "min_gridaccess": 1993.9, "max_gridaccess": 6305.27, "pct_nodata": 0.0, "pct_trees": 0.0, "pct_cropland": 0.0, "pct_grassland": 40.0, "pct_forest": 40.0, "pct_shrubland": 0.0, "pct_bare": 20.0, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 40.0%, Forest 40.0%, Bare 20.0%", "city_distance_m": 11626.3414, "border_distance_m": 21955.5582 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 45.029, 35.513751375137517 ], [ 45.029, 35.502750275027502 ], [ 45.018, 35.502750275027502 ], [ 45.018, 35.491749174917494 ], [ 45.029, 35.491749174917494 ], [ 45.029, 35.469746974697472 ], [ 45.04, 35.469746974697472 ], [ 45.04, 35.480748074807479 ], [ 45.051, 35.480748074807479 ], [ 45.051, 35.502750275027502 ], [ 45.04, 35.502750275027502 ], [ 45.04, 35.513751375137517 ], [ 45.029, 35.513751375137517 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 5, "class_label": "Highly Suitable", "area_km2": 63.338, "zone_id": "Z0002", "centroid_lon": 45.120808, "centroid_lat": 35.442879, "bbox_min_lon": 45.029, "bbox_min_lat": 35.392739, "bbox_max_lon": 45.194, "bbox_max_lat": 35.491749, "governorate": "Sulaimaniya+Halabja", "score_100": 94.8236, "val_ghi": 1910.623, "min_ghi": 1802.87, "max_ghi": 1931.81, "val_dni": 1966.871, "min_dni": 1690.38, "max_dni": 2049.05, "val_gti": 2169.585, "min_gti": 1985.13, "max_gti": 2199.54, "val_temperature": 20.6915, "min_temperature": 16.13, "max_temperature": 21.36, "val_pvout": 1683.9886, "min_pvout": 1612.19, "max_pvout": 1740.84, "val_elevation": 640.3895, "min_elevation": 545.63, "max_elevation": 1212.99, "val_slope": 3.0647, "min_slope": 1.47, "max_slope": 30.76, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 1.0, "val_soiltype": 9.5, "min_soiltype": 9.5, "max_soiltype": 9.5, "val_dustsoiling": 1.0893, "min_dustsoiling": 0.96, "max_dustsoiling": 1.12, "val_gridaccess": 4229.7031, "min_gridaccess": 0.0, "max_gridaccess": 7975.6, "pct_nodata": 0.0, "pct_trees": 1.2, "pct_cropland": 0.0, "pct_grassland": 46.2, "pct_forest": 36.9, "pct_shrubland": 0.0, "pct_bare": 15.6, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 46.2%, Forest 36.9%, Bare 15.6%, Trees 1.2%", "city_distance_m": 13850.0798, "border_distance_m": 28928.7511 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 45.073, 35.491749174917494 ], [ 45.073, 35.480748074807479 ], [ 45.051, 35.480748074807479 ], [ 45.051, 35.458745874587457 ], [ 45.029, 35.458745874587457 ], [ 45.029, 35.447744774477449 ], [ 45.062, 35.447744774477449 ], [ 45.062, 35.458745874587457 ], [ 45.073, 35.458745874587457 ], [ 45.073, 35.469746974697472 ], [ 45.084, 35.469746974697472 ], [ 45.084, 35.447744774477449 ], [ 45.106, 35.447744774477449 ], [ 45.106, 35.436743674367435 ], [ 45.095, 35.436743674367435 ], [ 45.095, 35.425742574257427 ], [ 45.084, 35.425742574257427 ], [ 45.084, 35.414741474147412 ], [ 45.095, 35.414741474147412 ], [ 45.095, 35.403740374037405 ], [ 45.106, 35.403740374037405 ], [ 45.106, 35.414741474147412 ], [ 45.117, 35.414741474147412 ], [ 45.117, 35.39273927392739 ], [ 45.128, 35.39273927392739 ], [ 45.128, 35.403740374037405 ], [ 45.139, 35.403740374037405 ], [ 45.139, 35.414741474147412 ], [ 45.15, 35.414741474147412 ], [ 45.15, 35.425742574257427 ], [ 45.161, 35.425742574257427 ], [ 45.161, 35.414741474147412 ], [ 45.172, 35.414741474147412 ], [ 45.172, 35.39273927392739 ], [ 45.194, 35.39273927392739 ], [ 45.194, 35.414741474147412 ], [ 45.183, 35.414741474147412 ], [ 45.183, 35.436743674367435 ], [ 45.161, 35.436743674367435 ], [ 45.161, 35.447744774477449 ], [ 45.172, 35.447744774477449 ], [ 45.172, 35.458745874587457 ], [ 45.161, 35.458745874587457 ], [ 45.161, 35.469746974697472 ], [ 45.15, 35.469746974697472 ], [ 45.15, 35.480748074807479 ], [ 45.139, 35.480748074807479 ], [ 45.139, 35.469746974697472 ], [ 45.128, 35.469746974697472 ], [ 45.128, 35.458745874587457 ], [ 45.106, 35.458745874587457 ], [ 45.106, 35.469746974697472 ], [ 45.117, 35.469746974697472 ], [ 45.117, 35.480748074807479 ], [ 45.084, 35.480748074807479 ], [ 45.084, 35.491749174917494 ], [ 45.073, 35.491749174917494 ] ], [ [ 45.117, 35.436743674367435 ], [ 45.128, 35.436743674367435 ], [ 45.128, 35.414741474147412 ], [ 45.117, 35.414741474147412 ], [ 45.117, 35.436743674367435 ] ], [ [ 45.139, 35.436743674367435 ], [ 45.15, 35.436743674367435 ], [ 45.15, 35.425742574257427 ], [ 45.139, 35.425742574257427 ], [ 45.139, 35.436743674367435 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 5, "class_label": "Highly Suitable", "area_km2": 4.8758, "zone_id": "Z0003", "centroid_lon": 45.11975, "centroid_lat": 35.378988, "bbox_min_lon": 45.106, "bbox_min_lat": 35.370737, "bbox_max_lon": 45.139, "bbox_max_lat": 35.392739, "governorate": "Sulaimaniya+Halabja", "score_100": 94.5387, "val_ghi": 1915.736, "min_ghi": 1913.18, "max_ghi": 1917.56, "val_dni": 1961.027, "min_dni": 1957.01, "max_dni": 1969.79, "val_gti": 2176.1599, "min_gti": 2172.51, "max_gti": 2179.45, "val_temperature": 20.7894, "min_temperature": 20.48, "max_temperature": 20.94, "val_pvout": 1687.1162, "min_pvout": 1684.55, "max_pvout": 1692.27, "val_elevation": 630.6608, "min_elevation": 609.17, "max_elevation": 672.49, "val_slope": 3.7522, "min_slope": 1.44, "max_slope": 4.5, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 0.6, "val_soiltype": 9.5, "min_soiltype": 9.5, "max_soiltype": 9.5, "val_dustsoiling": 1.0553, "min_dustsoiling": 1.02, "max_dustsoiling": 1.09, "val_gridaccess": 996.9506, "min_gridaccess": 0.0, "max_gridaccess": 1993.9, "pct_nodata": 0.0, "pct_trees": 0.0, "pct_cropland": 0.0, "pct_grassland": 58.3, "pct_forest": 41.7, "pct_shrubland": 0.0, "pct_bare": 0.0, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 58.3%, Forest 41.7%", "city_distance_m": 11279.2081, "border_distance_m": 29741.8958 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 45.106, 35.39273927392739 ], [ 45.106, 35.370737073707367 ], [ 45.139, 35.370737073707367 ], [ 45.139, 35.381738173817382 ], [ 45.117, 35.381738173817382 ], [ 45.117, 35.39273927392739 ], [ 45.106, 35.39273927392739 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 5, "class_label": "Highly Suitable", "area_km2": 92.6983, "zone_id": "Z0004", "centroid_lon": 45.046658, "centroid_lat": 35.329483, "bbox_min_lon": 44.974, "bbox_min_lat": 35.249725, "bbox_max_lon": 45.117, "bbox_max_lat": 35.414741, "governorate": "Sulaimaniya+Halabja", "score_100": 94.0919, "val_ghi": 1930.3459, "min_ghi": 1906.97, "max_ghi": 1951.17, "val_dni": 1999.3781, "min_dni": 1893.09, "max_dni": 2066.58, "val_gti": 2195.1521, "min_gti": 2167.39, "max_gti": 2219.26, "val_temperature": 20.2516, "min_temperature": 17.39, "max_temperature": 22.26, "val_pvout": 1707.399, "min_pvout": 1678.98, "max_pvout": 1749.89, "val_elevation": 729.4167, "min_elevation": 456.37, "max_elevation": 1108.53, "val_slope": 6.8714, "min_slope": 1.71, "max_slope": 29.0, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 1.0, "val_soiltype": 9.5, "min_soiltype": 9.5, "max_soiltype": 9.5, "val_dustsoiling": 1.0631, "min_dustsoiling": 0.96, "max_dustsoiling": 1.23, "val_gridaccess": 7786.4331, "min_gridaccess": 0.0, "max_gridaccess": 13375.5, "pct_nodata": 0.0, "pct_trees": 0.0, "pct_cropland": 0.0, "pct_grassland": 60.7, "pct_forest": 31.7, "pct_shrubland": 0.0, "pct_bare": 7.6, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 60.7%, Forest 31.7%, Bare 7.6%", "city_distance_m": 14274.1605, "border_distance_m": 25553.8488 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 45.018, 35.414741474147412 ], [ 45.018, 35.403740374037405 ], [ 45.029, 35.403740374037405 ], [ 45.029, 35.39273927392739 ], [ 45.018, 35.39273927392739 ], [ 45.018, 35.381738173817382 ], [ 45.007, 35.381738173817382 ], [ 45.007, 35.370737073707367 ], [ 45.029, 35.370737073707367 ], [ 45.029, 35.348734873487345 ], [ 45.018, 35.348734873487345 ], [ 45.018, 35.32673267326733 ], [ 45.007, 35.32673267326733 ], [ 45.007, 35.315731573157315 ], [ 44.985, 35.315731573157315 ], [ 44.985, 35.304730473047307 ], [ 44.974, 35.304730473047307 ], [ 44.974, 35.293729372937293 ], [ 44.996, 35.293729372937293 ], [ 44.996, 35.282728272827285 ], [ 45.007, 35.282728272827285 ], [ 45.007, 35.293729372937293 ], [ 45.018, 35.293729372937293 ], [ 45.018, 35.282728272827285 ], [ 45.029, 35.282728272827285 ], [ 45.029, 35.27172717271727 ], [ 45.04, 35.27172717271727 ], [ 45.04, 35.260726072607262 ], [ 45.062, 35.260726072607262 ], [ 45.062, 35.249724972497248 ], [ 45.073, 35.249724972497248 ], [ 45.073, 35.27172717271727 ], [ 45.084, 35.27172717271727 ], [ 45.084, 35.282728272827285 ], [ 45.073, 35.282728272827285 ], [ 45.073, 35.304730473047307 ], [ 45.084, 35.304730473047307 ], [ 45.084, 35.32673267326733 ], [ 45.106, 35.32673267326733 ], [ 45.106, 35.337733773377337 ], [ 45.117, 35.337733773377337 ], [ 45.117, 35.348734873487345 ], [ 45.095, 35.348734873487345 ], [ 45.095, 35.35973597359736 ], [ 45.084, 35.35973597359736 ], [ 45.084, 35.370737073707367 ], [ 45.073, 35.370737073707367 ], [ 45.073, 35.381738173817382 ], [ 45.062, 35.381738173817382 ], [ 45.062, 35.39273927392739 ], [ 45.051, 35.39273927392739 ], [ 45.051, 35.403740374037405 ], [ 45.04, 35.403740374037405 ], [ 45.04, 35.414741474147412 ], [ 45.018, 35.414741474147412 ] ], [ [ 45.04, 35.39273927392739 ], [ 45.051, 35.39273927392739 ], [ 45.051, 35.381738173817382 ], [ 45.04, 35.381738173817382 ], [ 45.04, 35.39273927392739 ] ], [ [ 45.073, 35.348734873487345 ], [ 45.084, 35.348734873487345 ], [ 45.084, 35.32673267326733 ], [ 45.073, 35.32673267326733 ], [ 45.073, 35.348734873487345 ] ], [ [ 45.062, 35.32673267326733 ], [ 45.073, 35.32673267326733 ], [ 45.073, 35.315731573157315 ], [ 45.062, 35.315731573157315 ], [ 45.062, 35.32673267326733 ] ], [ [ 45.029, 35.315731573157315 ], [ 45.04, 35.315731573157315 ], [ 45.04, 35.304730473047307 ], [ 45.029, 35.304730473047307 ], [ 45.029, 35.315731573157315 ] ], [ [ 45.029, 35.293729372937293 ], [ 45.04, 35.293729372937293 ], [ 45.04, 35.282728272827285 ], [ 45.029, 35.282728272827285 ], [ 45.029, 35.293729372937293 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 5, "class_label": "Highly Suitable", "area_km2": 3.6241, "zone_id": "Z0005", "centroid_lon": 44.315833, "centroid_lat": 36.116978, "bbox_min_lon": 44.303, "bbox_min_lat": 36.107811, "bbox_max_lon": 44.325, "bbox_max_lat": 36.129813, "governorate": "Erbil", "score_100": 92.3592, "val_ghi": 1901.4919, "min_ghi": 1898.94, "max_ghi": 1904.05, "val_dni": 1979.655, "min_dni": 1959.57, "max_dni": 1984.77, "val_gti": 2161.1841, "min_gti": 2157.9, "max_gti": 2164.11, "val_temperature": 19.894, "min_temperature": 19.79, "max_temperature": 20.32, "val_pvout": 1686.5608, "min_pvout": 1679.52, "max_pvout": 1688.66, "val_elevation": 631.1318, "min_elevation": 560.37, "max_elevation": 651.08, "val_slope": 8.6559, "min_slope": 5.04, "max_slope": 11.17, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 0.6, "val_soiltype": 9.5, "min_soiltype": 9.5, "max_soiltype": 9.5, "val_dustsoiling": 1.0458, "min_dustsoiling": 1.03, "max_dustsoiling": 1.05, "val_gridaccess": 4458.4985, "min_gridaccess": 3152.63, "max_gridaccess": 5813.17, "pct_nodata": 0.0, "pct_trees": 0.0, "pct_cropland": 0.0, "pct_grassland": 77.8, "pct_forest": 22.2, "pct_shrubland": 0.0, "pct_bare": 0.0, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 77.8%, Forest 22.2%", "city_distance_m": 10783.6697, "border_distance_m": 23947.575 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 44.314, 36.12981298129813 ], [ 44.314, 36.118811881188115 ], [ 44.303, 36.118811881188115 ], [ 44.303, 36.107810781078108 ], [ 44.325, 36.107810781078108 ], [ 44.325, 36.12981298129813 ], [ 44.314, 36.12981298129813 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 5, "class_label": "Highly Suitable", "area_km2": 17.0578, "zone_id": "Z0006", "centroid_lon": 45.233286, "centroid_lat": 35.417885, "bbox_min_lon": 45.194, "bbox_min_lat": 35.392739, "bbox_max_lon": 45.26, "bbox_max_lat": 35.436744, "governorate": "Sulaimaniya+Halabja", "score_100": 90.7242, "val_ghi": 1907.3361, "min_ghi": 1817.85, "max_ghi": 1939.11, "val_dni": 1945.322, "min_dni": 1764.16, "max_dni": 2081.56, "val_gti": 2149.8621, "min_gti": 2039.19, "max_gti": 2202.09, "val_temperature": 18.6512, "min_temperature": 14.88, "max_temperature": 19.75, "val_pvout": 1682.2303, "min_pvout": 1674.99, "max_pvout": 1747.12, "val_elevation": 883.7645, "min_elevation": 761.66, "max_elevation": 1432.94, "val_slope": 12.8239, "min_slope": 5.8, "max_slope": 26.78, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 0.6, "val_soiltype": 9.5, "min_soiltype": 9.5, "max_soiltype": 9.5, "val_dustsoiling": 0.9443, "min_dustsoiling": 0.93, "max_dustsoiling": 1.01, "val_gridaccess": 9869.3076, "min_gridaccess": 5639.6, "max_gridaccess": 10597.73, "pct_nodata": 0.0, "pct_trees": 2.9, "pct_cropland": 0.0, "pct_grassland": 91.4, "pct_forest": 5.7, "pct_shrubland": 0.0, "pct_bare": 0.0, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 91.4%, Forest 5.7%, Trees 2.9%", "city_distance_m": 11146.2463, "border_distance_m": 40076.9161 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 45.216, 35.436743674367435 ], [ 45.216, 35.425742574257427 ], [ 45.194, 35.425742574257427 ], [ 45.194, 35.414741474147412 ], [ 45.216, 35.414741474147412 ], [ 45.216, 35.403740374037405 ], [ 45.249, 35.403740374037405 ], [ 45.249, 35.39273927392739 ], [ 45.26, 35.39273927392739 ], [ 45.26, 35.425742574257427 ], [ 45.249, 35.425742574257427 ], [ 45.249, 35.436743674367435 ], [ 45.216, 35.436743674367435 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 5, "class_label": "Highly Suitable", "area_km2": 14.6696, "zone_id": "Z0007", "centroid_lon": 45.555167, "centroid_lat": 35.147965, "bbox_min_lon": 45.524, "bbox_min_lat": 35.117712, "bbox_max_lon": 45.579, "bbox_max_lat": 35.172717, "governorate": "Sulaimaniya+Halabja", "score_100": 90.5813, "val_ghi": 1907.3361, "min_ghi": 1686.36, "max_ghi": 1948.61, "val_dni": 1926.329, "min_dni": 1562.17, "max_dni": 2047.23, "val_gti": 2150.592, "min_gti": 1817.12, "max_gti": 2211.22, "val_temperature": 20.4031, "min_temperature": 14.8, "max_temperature": 21.38, "val_pvout": 1676.9232, "min_pvout": 1610.53, "max_pvout": 1736.66, "val_elevation": 673.8283, "min_elevation": 553.17, "max_elevation": 1347.05, "val_slope": 12.475, "min_slope": 6.6, "max_slope": 43.53, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 1.0, "val_soiltype": 9.5, "min_soiltype": 9.5, "max_soiltype": 9.5, "val_dustsoiling": 1.1197, "min_dustsoiling": 1.07, "max_dustsoiling": 1.16, "val_gridaccess": 8221.0645, "min_gridaccess": 4984.75, "max_gridaccess": 11011.68, "pct_nodata": 0.0, "pct_trees": 8.3, "pct_cropland": 0.0, "pct_grassland": 77.8, "pct_forest": 8.3, "pct_shrubland": 0.0, "pct_bare": 5.6, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 77.8%, Trees 8.3%, Forest 8.3%, Bare 5.6%", "city_distance_m": 11366.9857, "border_distance_m": 20959.6858 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 45.535, 35.172717271727173 ], [ 45.535, 35.161716171617158 ], [ 45.524, 35.161716171617158 ], [ 45.524, 35.15071507150715 ], [ 45.546, 35.15071507150715 ], [ 45.546, 35.128712871287128 ], [ 45.568, 35.128712871287128 ], [ 45.568, 35.11771177117712 ], [ 45.579, 35.11771177117712 ], [ 45.579, 35.139713971397143 ], [ 45.568, 35.139713971397143 ], [ 45.568, 35.172717271727173 ], [ 45.557, 35.172717271727173 ], [ 45.557, 35.161716171617158 ], [ 45.546, 35.161716171617158 ], [ 45.546, 35.172717271727173 ], [ 45.535, 35.172717271727173 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 5, "class_label": "Highly Suitable", "area_km2": 7.2507, "zone_id": "Z0008", "centroid_lon": 44.3415, "centroid_lat": 36.085809, "bbox_min_lon": 44.325, "bbox_min_lat": 36.074807, "bbox_max_lon": 44.369, "bbox_max_lat": 36.107811, "governorate": "Erbil", "score_100": 87.3311, "val_ghi": 1898.5699, "min_ghi": 1893.46, "max_ghi": 1901.49, "val_dni": 1959.932, "min_dni": 1918.66, "max_dni": 1973.81, "val_gti": 2158.6279, "min_gti": 2150.96, "max_gti": 2160.82, "val_temperature": 20.5144, "min_temperature": 19.77, "max_temperature": 20.56, "val_pvout": 1677.6096, "min_pvout": 1675.56, "max_pvout": 1686.44, "val_elevation": 534.2585, "min_elevation": 513.89, "max_elevation": 618.21, "val_slope": 11.0884, "min_slope": 3.26, "max_slope": 15.77, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 1.0, "val_soiltype": 9.5, "min_soiltype": 9.5, "max_soiltype": 9.5, "val_dustsoiling": 1.0451, "min_dustsoiling": 1.04, "max_dustsoiling": 1.06, "val_gridaccess": 4984.7529, "min_gridaccess": 2229.25, "max_gridaccess": 6687.75, "pct_nodata": 0.0, "pct_trees": 0.0, "pct_cropland": 0.0, "pct_grassland": 85.0, "pct_forest": 10.0, "pct_shrubland": 0.0, "pct_bare": 5.0, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 85.0%, Forest 10.0%, Bare 5.0%", "city_distance_m": 10783.6697, "border_distance_m": 20552.6628 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 44.325, 36.107810781078108 ], [ 44.325, 36.074807480748078 ], [ 44.369, 36.074807480748078 ], [ 44.369, 36.085808580858085 ], [ 44.336, 36.085808580858085 ], [ 44.336, 36.107810781078108 ], [ 44.325, 36.107810781078108 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 5, "class_label": "Highly Suitable", "area_km2": 3.6554, "zone_id": "Z0009", "centroid_lon": 45.280167, "centroid_lat": 35.412908, "bbox_min_lon": 45.271, "bbox_min_lat": 35.40374, "bbox_max_lon": 45.293, "bbox_max_lat": 35.425743, "governorate": "Sulaimaniya+Halabja", "score_100": 85.0141, "val_ghi": 1917.197, "min_ghi": 1916.1, "max_ghi": 1927.79, "val_dni": 1963.949, "min_dni": 1963.95, "max_dni": 2019.83, "val_gti": 2168.854, "min_gti": 2166.66, "max_gti": 2188.94, "val_temperature": 19.36, "min_temperature": 19.04, "max_temperature": 19.44, "val_pvout": 1698.4686, "min_pvout": 1692.14, "max_pvout": 1710.71, "val_elevation": 807.8481, "min_elevation": 807.85, "max_elevation": 853.12, "val_slope": 7.2371, "min_slope": 5.68, "max_slope": 11.92, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 0.6, "val_soiltype": 9.5, "min_soiltype": 9.5, "max_soiltype": 9.5, "val_dustsoiling": 0.9469, "min_dustsoiling": 0.94, "max_dustsoiling": 0.95, "val_gridaccess": 10019.2295, "min_gridaccess": 8917.0, "max_gridaccess": 11011.68, "pct_nodata": 0.0, "pct_trees": 0.0, "pct_cropland": 0.0, "pct_grassland": 55.6, "pct_forest": 44.4, "pct_shrubland": 0.0, "pct_bare": 0.0, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 55.6%, Forest 44.4%", "city_distance_m": 12128.4277, "border_distance_m": 44046.7147 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 45.271, 35.425742574257427 ], [ 45.271, 35.403740374037405 ], [ 45.293, 35.403740374037405 ], [ 45.293, 35.414741474147412 ], [ 45.282, 35.414741474147412 ], [ 45.282, 35.425742574257427 ], [ 45.271, 35.425742574257427 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 5, "class_label": "Highly Suitable", "area_km2": 3.6638, "zone_id": "Z0010", "centroid_lon": 45.324167, "centroid_lat": 35.225889, "bbox_min_lon": 45.315, "bbox_min_lat": 35.216722, "bbox_max_lon": 45.337, "bbox_max_lat": 35.238724, "governorate": "Sulaimaniya+Halabja", "score_100": 84.6465, "val_ghi": 1930.7111, "min_ghi": 1927.42, "max_ghi": 1932.17, "val_dni": 2021.2939, "min_dni": 2008.88, "max_dni": 2028.96, "val_gti": 2194.0569, "min_gti": 2187.12, "max_gti": 2196.98, "val_temperature": 18.401, "min_temperature": 17.24, "max_temperature": 18.95, "val_pvout": 1720.9999, "min_pvout": 1714.92, "max_pvout": 1730.46, "val_elevation": 943.7386, "min_elevation": 891.49, "max_elevation": 1068.9, "val_slope": 7.6899, "min_slope": 3.87, "max_slope": 16.04, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 0.6, "val_soiltype": 9.5, "min_soiltype": 9.5, "max_soiltype": 9.5, "val_dustsoiling": 0.993, "min_dustsoiling": 0.97, "max_dustsoiling": 1.0, "val_gridaccess": 14719.7988, "min_gridaccess": 13375.5, "max_gridaccess": 15951.21, "pct_nodata": 0.0, "pct_trees": 0.0, "pct_cropland": 0.0, "pct_grassland": 55.6, "pct_forest": 44.4, "pct_shrubland": 0.0, "pct_bare": 0.0, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 55.6%, Forest 44.4%", "city_distance_m": 11626.3414, "border_distance_m": 41919.3716 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 45.315, 35.23872387238724 ], [ 45.315, 35.216721672167218 ], [ 45.337, 35.216721672167218 ], [ 45.337, 35.227722772277225 ], [ 45.326, 35.227722772277225 ], [ 45.326, 35.23872387238724 ], [ 45.315, 35.23872387238724 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 5, "class_label": "Highly Suitable", "area_km2": 3.6665, "zone_id": "Z0011", "centroid_lon": 45.5075, "centroid_lat": 35.167217, "bbox_min_lon": 45.491, "bbox_min_lat": 35.161716, "bbox_max_lon": 45.524, "bbox_max_lat": 35.172717, "governorate": "Sulaimaniya+Halabja", "score_100": 84.6207, "val_ghi": 1912.084, "min_ghi": 1581.53, "max_ghi": 1914.28, "val_dni": 1948.609, "min_dni": 1427.4, "max_dni": 1954.09, "val_gti": 2158.6279, "min_gti": 1691.84, "max_gti": 2164.84, "val_temperature": 19.5019, "min_temperature": 16.92, "max_temperature": 20.09, "val_pvout": 1677.4824, "min_pvout": 1517.19, "max_pvout": 1684.09, "val_elevation": 767.5818, "min_elevation": 694.62, "max_elevation": 1271.84, "val_slope": 7.4621, "min_slope": 7.46, "max_slope": 30.69, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 0.6, "val_soiltype": 9.5, "min_soiltype": 9.5, "max_soiltype": 9.5, "val_dustsoiling": 1.0741, "min_dustsoiling": 1.03, "max_dustsoiling": 1.08, "val_gridaccess": 11963.4072, "min_gridaccess": 10966.46, "max_gridaccess": 13957.31, "pct_nodata": 0.0, "pct_trees": 12.5, "pct_cropland": 0.0, "pct_grassland": 75.0, "pct_forest": 12.5, "pct_shrubland": 0.0, "pct_bare": 0.0, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 75.0%, Trees 12.5%, Forest 12.5%", "city_distance_m": 10019.229, "border_distance_m": 24923.7646 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 45.491, 35.172717271727173 ], [ 45.491, 35.161716171617158 ], [ 45.524, 35.161716171617158 ], [ 45.524, 35.172717271727173 ], [ 45.491, 35.172717271727173 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 5, "class_label": "Highly Suitable", "area_km2": 4.8947, "zone_id": "Z0012", "centroid_lon": 45.2655, "centroid_lat": 35.062706, "bbox_min_lon": 45.249, "bbox_min_lat": 35.051705, "bbox_max_lon": 45.282, "bbox_max_lat": 35.073707, "governorate": "Sulaimaniya+Halabja", "score_100": 83.916, "val_ghi": 1929.25, "min_ghi": 1925.6, "max_ghi": 1932.17, "val_dni": 1964.6801, "min_dni": 1941.67, "max_dni": 1976.73, "val_gti": 2187.4819, "min_gti": 2183.46, "max_gti": 2191.86, "val_temperature": 21.6843, "min_temperature": 21.42, "max_temperature": 22.0, "val_pvout": 1695.5392, "min_pvout": 1688.41, "max_pvout": 1701.64, "val_elevation": 646.9344, "min_elevation": 575.52, "max_elevation": 668.68, "val_slope": 8.4857, "min_slope": 3.01, "max_slope": 11.79, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 1.0, "val_soiltype": 9.5, "min_soiltype": 9.5, "max_soiltype": 9.5, "val_dustsoiling": 1.0607, "min_dustsoiling": 1.05, "max_dustsoiling": 1.07, "val_gridaccess": 14515.8193, "min_gridaccess": 12331.6, "max_gridaccess": 15763.17, "pct_nodata": 0.0, "pct_trees": 0.0, "pct_cropland": 0.0, "pct_grassland": 58.3, "pct_forest": 33.3, "pct_shrubland": 0.0, "pct_bare": 8.3, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 58.3%, Forest 33.3%, Bare 8.3%", "city_distance_m": 11963.407, "border_distance_m": 43284.1926 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 45.249, 35.073707370737075 ], [ 45.249, 35.062706270627061 ], [ 45.26, 35.062706270627061 ], [ 45.26, 35.051705170517053 ], [ 45.282, 35.051705170517053 ], [ 45.282, 35.062706270627061 ], [ 45.271, 35.062706270627061 ], [ 45.271, 35.073707370737075 ], [ 45.249, 35.073707370737075 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 4, "class_label": "Suitable", "area_km2": 5.9838, "zone_id": "Z0013", "centroid_lon": 43.7695, "centroid_lat": 36.872387, "bbox_min_lon": 43.742, "bbox_min_lat": 36.866887, "bbox_max_lon": 43.797, "bbox_max_lat": 36.877888, "governorate": "Duhok", "score_100": 81.9786, "val_ghi": 1860.584, "min_ghi": 1847.8, "max_ghi": 1868.62, "val_dni": 2000.474, "min_dni": 1930.35, "max_dni": 2027.5, "val_gti": 2115.8931, "min_gti": 2103.11, "max_gti": 2128.31, "val_temperature": 18.0636, "min_temperature": 16.53, "max_temperature": 18.42, "val_pvout": 1667.5985, "min_pvout": 1662.37, "max_pvout": 1685.72, "val_elevation": 669.1578, "min_elevation": 613.93, "max_elevation": 851.59, "val_slope": 10.9849, "min_slope": 6.31, "max_slope": 30.5, "val_landclass": 0.6, "min_landclass": 0.6, "max_landclass": 0.6, "val_soiltype": 8.5, "min_soiltype": 8.5, "max_soiltype": 8.5, "val_dustsoiling": 0.8817, "min_dustsoiling": 0.85, "max_dustsoiling": 0.88, "val_gridaccess": 16502.4688, "min_gridaccess": 14378.23, "max_gridaccess": 16918.81, "pct_nodata": 0.0, "pct_trees": 0.0, "pct_cropland": 0.0, "pct_grassland": 100.0, "pct_forest": 0.0, "pct_shrubland": 0.0, "pct_bare": 0.0, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 100.0%", "city_distance_m": 10783.6697, "border_distance_m": 30321.0683 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 43.742, 36.877887788778878 ], [ 43.742, 36.86688668866887 ], [ 43.797, 36.86688668866887 ], [ 43.797, 36.877887788778878 ], [ 43.742, 36.877887788778878 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 5, "class_label": "Highly Suitable", "area_km2": 15.5667, "zone_id": "Z0014", "centroid_lon": 43.749192, "centroid_lat": 36.858001, "bbox_min_lon": 43.698, "bbox_min_lat": 36.844884, "bbox_max_lon": 43.797, "bbox_max_lat": 36.866887, "governorate": "Duhok", "score_100": 81.5042, "val_ghi": 1850.722, "min_ghi": 1840.13, "max_ghi": 1860.95, "val_dni": 1962.854, "min_dni": 1905.87, "max_dni": 2000.47, "val_gti": 2101.283, "min_gti": 2066.58, "max_gti": 2117.72, "val_temperature": 18.796, "min_temperature": 17.7, "max_temperature": 19.12, "val_pvout": 1638.225, "min_pvout": 1626.84, "max_pvout": 1670.76, "val_elevation": 574.6285, "min_elevation": 534.69, "max_elevation": 715.08, "val_slope": 6.9492, "min_slope": 3.44, "max_slope": 24.54, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 0.6, "val_soiltype": 8.5, "min_soiltype": 8.5, "max_soiltype": 8.5, "val_dustsoiling": 0.8596, "min_dustsoiling": 0.85, "max_dustsoiling": 0.9, "val_gridaccess": 16592.5645, "min_gridaccess": 13559.99, "max_gridaccess": 16592.56, "pct_nodata": 0.0, "pct_trees": 10.0, "pct_cropland": 0.0, "pct_grassland": 63.3, "pct_forest": 26.7, "pct_shrubland": 0.0, "pct_bare": 0.0, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 63.3%, Forest 26.7%, Trees 10.0%", "city_distance_m": 11279.2081, "border_distance_m": 31683.5847 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 43.698, 36.86688668866887 ], [ 43.698, 36.855885588558856 ], [ 43.731, 36.855885588558856 ], [ 43.731, 36.844884488448848 ], [ 43.775, 36.844884488448848 ], [ 43.775, 36.855885588558856 ], [ 43.797, 36.855885588558856 ], [ 43.797, 36.86688668866887 ], [ 43.698, 36.86688668866887 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 5, "class_label": "Highly Suitable", "area_km2": 3.5946, "zone_id": "Z0015", "centroid_lon": 43.732833, "centroid_lat": 36.780711, "bbox_min_lon": 43.72, "bbox_min_lat": 36.767877, "bbox_max_lon": 43.742, "bbox_max_lat": 36.789879, "governorate": "Duhok", "score_100": 81.4746, "val_ghi": 1868.254, "min_ghi": 1866.43, "max_ghi": 1869.71, "val_dni": 1988.421, "min_dni": 1977.1, "max_dni": 1996.09, "val_gti": 2130.1379, "min_gti": 2127.58, "max_gti": 2133.43, "val_temperature": 18.7802, "min_temperature": 18.35, "max_temperature": 19.03, "val_pvout": 1668.5507, "min_pvout": 1664.93, "max_pvout": 1673.4, "val_elevation": 580.4658, "min_elevation": 554.44, "max_elevation": 644.24, "val_slope": 7.7259, "min_slope": 3.21, "max_slope": 12.91, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 0.6, "val_soiltype": 8.5, "min_soiltype": 8.5, "max_soiltype": 8.5, "val_dustsoiling": 0.9436, "min_dustsoiling": 0.93, "max_dustsoiling": 0.96, "val_gridaccess": 12004.875, "min_gridaccess": 10597.73, "max_gridaccess": 13412.6, "pct_nodata": 0.0, "pct_trees": 0.0, "pct_cropland": 0.0, "pct_grassland": 77.8, "pct_forest": 22.2, "pct_shrubland": 0.0, "pct_bare": 0.0, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 77.8%, Forest 22.2%", "city_distance_m": 10019.229, "border_distance_m": 32104.2854 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 43.72, 36.789878987898788 ], [ 43.72, 36.778877887788781 ], [ 43.731, 36.778877887788781 ], [ 43.731, 36.767876787678766 ], [ 43.742, 36.767876787678766 ], [ 43.742, 36.789878987898788 ], [ 43.72, 36.789878987898788 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 5, "class_label": "Highly Suitable", "area_km2": 3.5914, "zone_id": "Z0016", "centroid_lon": 44.5725, "centroid_lat": 36.828383, "bbox_min_lon": 44.567, "bbox_min_lat": 36.811881, "bbox_max_lon": 44.578, "bbox_max_lat": 36.844884, "governorate": "Erbil", "score_100": 81.4006, "val_ghi": 1864.601, "min_ghi": 1813.47, "max_ghi": 1867.89, "val_dni": 1980.386, "min_dni": 1807.62, "max_dni": 1992.8, "val_gti": 2115.5281, "min_gti": 2016.55, "max_gti": 2121.74, "val_temperature": 18.3128, "min_temperature": 18.1, "max_temperature": 18.67, "val_pvout": 1658.8685, "min_pvout": 1629.6, "max_pvout": 1664.18, "val_elevation": 902.7939, "min_elevation": 854.27, "max_elevation": 934.3, "val_slope": 12.1121, "min_slope": 11.61, "max_slope": 23.71, "val_landclass": 0.6, "min_landclass": 0.6, "max_landclass": 0.6, "val_soiltype": 8.5, "min_soiltype": 8.5, "max_soiltype": 8.5, "val_dustsoiling": 0.8748, "min_dustsoiling": 0.84, "max_dustsoiling": 0.89, "val_gridaccess": 15508.9111, "min_gridaccess": 14099.01, "max_gridaccess": 16918.81, "pct_nodata": 0.0, "pct_trees": 0.0, "pct_cropland": 0.0, "pct_grassland": 100.0, "pct_forest": 0.0, "pct_shrubland": 0.0, "pct_bare": 0.0, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 100.0%", "city_distance_m": 10166.941, "border_distance_m": 23947.575 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 44.567, 36.844884488448848 ], [ 44.567, 36.811881188118811 ], [ 44.578, 36.811881188118811 ], [ 44.578, 36.844884488448848 ], [ 44.567, 36.844884488448848 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 5, "class_label": "Highly Suitable", "area_km2": 16.7556, "zone_id": "Z0017", "centroid_lon": 44.5395, "centroid_lat": 36.847242, "bbox_min_lon": 44.512, "bbox_min_lat": 36.822882, "bbox_max_lon": 44.567, "bbox_max_lat": 36.877888, "governorate": "Erbil", "score_100": 81.2812, "val_ghi": 1854.009, "min_ghi": 1835.38, "max_ghi": 1864.97, "val_dni": 1926.694, "min_dni": 1870.44, "max_dni": 1986.96, "val_gti": 2095.439, "min_gti": 2048.32, "max_gti": 2115.89, "val_temperature": 18.7368, "min_temperature": 17.93, "max_temperature": 19.04, "val_pvout": 1649.2729, "min_pvout": 1630.22, "max_pvout": 1660.14, "val_elevation": 821.53, "min_elevation": 791.64, "max_elevation": 907.52, "val_slope": 11.7212, "min_slope": 5.15, "max_slope": 25.68, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 0.6, "val_soiltype": 8.5, "min_soiltype": 8.5, "max_soiltype": 8.5, "val_dustsoiling": 0.891, "min_dustsoiling": 0.82, "max_dustsoiling": 0.91, "val_gridaccess": 14169.3301, "min_gridaccess": 11366.99, "max_gridaccess": 18382.86, "pct_nodata": 0.0, "pct_trees": 0.0, "pct_cropland": 0.0, "pct_grassland": 91.7, "pct_forest": 8.3, "pct_shrubland": 0.0, "pct_bare": 0.0, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 91.7%, Forest 8.3%", "city_distance_m": 12998.645, "border_distance_m": 21864.8342 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 44.556, 36.877887788778878 ], [ 44.556, 36.86688668866887 ], [ 44.534, 36.86688668866887 ], [ 44.534, 36.844884488448848 ], [ 44.523, 36.844884488448848 ], [ 44.523, 36.855885588558856 ], [ 44.512, 36.855885588558856 ], [ 44.512, 36.822882288228826 ], [ 44.545, 36.822882288228826 ], [ 44.545, 36.844884488448848 ], [ 44.567, 36.844884488448848 ], [ 44.567, 36.877887788778878 ], [ 44.556, 36.877887788778878 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 4, "class_label": "Suitable", "area_km2": 9.583, "zone_id": "Z0018", "centroid_lon": 43.71725, "centroid_lat": 36.802255, "bbox_min_lon": 43.698, "bbox_min_lat": 36.778878, "bbox_max_lon": 43.731, "bbox_max_lat": 36.822882, "governorate": "Duhok", "score_100": 78.6742, "val_ghi": 1862.775, "min_ghi": 1845.24, "max_ghi": 1874.46, "val_dni": 1949.339, "min_dni": 1901.49, "max_dni": 2014.35, "val_gti": 2122.1021, "min_gti": 2085.94, "max_gti": 2138.54, "val_temperature": 17.8221, "min_temperature": 15.49, "max_temperature": 18.86, "val_pvout": 1678.397, "min_pvout": 1648.63, "max_pvout": 1682.58, "val_elevation": 749.8273, "min_elevation": 574.92, "max_elevation": 984.13, "val_slope": 16.3128, "min_slope": 7.73, "max_slope": 20.96, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 0.6, "val_soiltype": 8.5, "min_soiltype": 8.5, "max_soiltype": 8.5, "val_dustsoiling": 0.9436, "min_dustsoiling": 0.9, "max_dustsoiling": 0.98, "val_gridaccess": 14169.3301, "min_gridaccess": 12004.88, "max_gridaccess": 16948.16, "pct_nodata": 0.0, "pct_trees": 5.0, "pct_cropland": 0.0, "pct_grassland": 90.0, "pct_forest": 5.0, "pct_shrubland": 0.0, "pct_bare": 0.0, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 90.0%, Trees 5.0%, Forest 5.0%", "city_distance_m": 11366.9857, "border_distance_m": 33185.1278 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 43.709, 36.822882288228826 ], [ 43.709, 36.800880088008803 ], [ 43.698, 36.800880088008803 ], [ 43.698, 36.789878987898788 ], [ 43.709, 36.789878987898788 ], [ 43.709, 36.778877887788781 ], [ 43.72, 36.778877887788781 ], [ 43.72, 36.789878987898788 ], [ 43.731, 36.789878987898788 ], [ 43.731, 36.822882288228826 ], [ 43.709, 36.822882288228826 ] ] ] } },
-{ "type": "Feature", "properties": { "suitability_class": 4, "class_label": "Suitable", "area_km2": 5.9858, "zone_id": "Z0019", "centroid_lon": 44.5571, "centroid_lat": 36.826183, "bbox_min_lon": 44.545, "bbox_min_lat": 36.811881, "bbox_max_lon": 44.567, "bbox_max_lat": 36.844884, "governorate": "Erbil", "score_100": 77.646, "val_ghi": 1861.679, "min_ghi": 1813.47, "max_ghi": 1864.97, "val_dni": 1966.871, "min_dni": 1807.62, "max_dni": 1980.39, "val_gti": 2108.5879, "min_gti": 2016.55, "max_gti": 2115.89, "val_temperature": 18.7017, "min_temperature": 18.12, "max_temperature": 18.81, "val_pvout": 1647.017, "min_pvout": 1625.31, "max_pvout": 1660.14, "val_elevation": 854.6672, "min_elevation": 804.6, "max_elevation": 907.52, "val_slope": 18.2246, "min_slope": 11.61, "max_slope": 23.71, "val_landclass": 0.6, "min_landclass": 0.0, "max_landclass": 0.6, "val_soiltype": 8.5, "min_soiltype": 8.5, "max_soiltype": 8.5, "val_dustsoiling": 0.8668, "min_dustsoiling": 0.85, "max_dustsoiling": 0.9, "val_gridaccess": 14099.0107, "min_gridaccess": 12689.11, "max_gridaccess": 16229.18, "pct_nodata": 0.0, "pct_trees": 0.0, "pct_cropland": 0.0, "pct_grassland": 91.7, "pct_forest": 8.3, "pct_shrubland": 0.0, "pct_bare": 0.0, "pct_wetlands": 0.0, "pct_water": 0.0, "landclass_summary": "Grassland 91.7%, Forest 8.3%", "city_distance_m": 10966.4564, "border_distance_m": 24521.7426 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 44.556, 36.844884488448848 ], [ 44.556, 36.833883388338833 ], [ 44.545, 36.833883388338833 ], [ 44.545, 36.811881188118811 ], [ 44.567, 36.811881188118811 ], [ 44.567, 36.844884488448848 ], [ 44.556, 36.844884488448848 ] ] ] } }
-]
+  "type": "FeatureCollection",
+  "name": "mcda_zones",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 5,
+        "class_label": "Highly Suitable",
+        "area_km2": 8.5211,
+        "zone_id": "Z0001",
+        "centroid_lon": 45.036071,
+        "centroid_lat": 35.492535,
+        "bbox_min_lon": 45.018,
+        "bbox_min_lat": 35.469747,
+        "bbox_max_lon": 45.051,
+        "bbox_max_lat": 35.513751,
+        "governorate": "Sulaimaniya+Halabja",
+        "score_100": 95.1832,
+        "val_ghi": 1913.91,
+        "min_ghi": 1912.81,
+        "max_ghi": 1916.1,
+        "val_dni": 1977.829,
+        "min_dni": 1972.71,
+        "max_dni": 1984.04,
+        "val_gti": 2172.8721,
+        "min_gti": 2172.14,
+        "max_gti": 2176.16,
+        "val_temperature": 20.0481,
+        "min_temperature": 19.62,
+        "max_temperature": 20.52,
+        "val_pvout": 1690.92,
+        "min_pvout": 1689.44,
+        "max_pvout": 1698.63,
+        "val_elevation": 703.8232,
+        "min_elevation": 650.22,
+        "max_elevation": 772.84,
+        "val_slope": 3.8039,
+        "min_slope": 2.32,
+        "max_slope": 5.49,
+        "val_landclass": 0.44,
+        "min_landclass": 0.0,
+        "max_landclass": 1.0,
+        "val_soiltype": 9.5,
+        "min_soiltype": 9.5,
+        "max_soiltype": 9.5,
+        "val_dustsoiling": 1.0843,
+        "min_dustsoiling": 1.06,
+        "max_dustsoiling": 1.1,
+        "val_gridaccess": 4110.5322,
+        "min_gridaccess": 1993.9,
+        "max_gridaccess": 6305.27,
+        "pct_nodata": 0.0,
+        "pct_trees": 0.0,
+        "pct_cropland": 0.0,
+        "pct_grassland": 40.0,
+        "pct_forest": 40.0,
+        "pct_shrubland": 0.0,
+        "pct_bare": 20.0,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 40.0%, Forest 40.0%, Bare 20.0%",
+        "city_distance_m": 11626.3414,
+        "border_distance_m": 21955.5582
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.029,
+              35.51375137513752
+            ],
+            [
+              45.029,
+              35.5027502750275
+            ],
+            [
+              45.018,
+              35.5027502750275
+            ],
+            [
+              45.018,
+              35.491749174917494
+            ],
+            [
+              45.029,
+              35.491749174917494
+            ],
+            [
+              45.029,
+              35.46974697469747
+            ],
+            [
+              45.04,
+              35.46974697469747
+            ],
+            [
+              45.04,
+              35.48074807480748
+            ],
+            [
+              45.051,
+              35.48074807480748
+            ],
+            [
+              45.051,
+              35.5027502750275
+            ],
+            [
+              45.04,
+              35.5027502750275
+            ],
+            [
+              45.04,
+              35.51375137513752
+            ],
+            [
+              45.029,
+              35.51375137513752
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 5,
+        "class_label": "Highly Suitable",
+        "area_km2": 63.338,
+        "zone_id": "Z0002",
+        "centroid_lon": 45.120808,
+        "centroid_lat": 35.442879,
+        "bbox_min_lon": 45.029,
+        "bbox_min_lat": 35.392739,
+        "bbox_max_lon": 45.194,
+        "bbox_max_lat": 35.491749,
+        "governorate": "Sulaimaniya+Halabja",
+        "score_100": 94.8236,
+        "val_ghi": 1910.623,
+        "min_ghi": 1802.87,
+        "max_ghi": 1931.81,
+        "val_dni": 1966.871,
+        "min_dni": 1690.38,
+        "max_dni": 2049.05,
+        "val_gti": 2169.585,
+        "min_gti": 1985.13,
+        "max_gti": 2199.54,
+        "val_temperature": 20.6915,
+        "min_temperature": 16.13,
+        "max_temperature": 21.36,
+        "val_pvout": 1683.9886,
+        "min_pvout": 1612.19,
+        "max_pvout": 1740.84,
+        "val_elevation": 640.3895,
+        "min_elevation": 545.63,
+        "max_elevation": 1212.99,
+        "val_slope": 3.0647,
+        "min_slope": 1.47,
+        "max_slope": 30.76,
+        "val_landclass": 0.4332,
+        "min_landclass": 0.0,
+        "max_landclass": 1.0,
+        "val_soiltype": 9.5,
+        "min_soiltype": 9.5,
+        "max_soiltype": 9.5,
+        "val_dustsoiling": 1.0893,
+        "min_dustsoiling": 0.96,
+        "max_dustsoiling": 1.12,
+        "val_gridaccess": 4229.7031,
+        "min_gridaccess": 0.0,
+        "max_gridaccess": 7975.6,
+        "pct_nodata": 0.0,
+        "pct_trees": 1.2,
+        "pct_cropland": 0.0,
+        "pct_grassland": 46.2,
+        "pct_forest": 36.9,
+        "pct_shrubland": 0.0,
+        "pct_bare": 15.6,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 46.2%, Forest 36.9%, Bare 15.6%, Trees 1.2%",
+        "city_distance_m": 13850.0798,
+        "border_distance_m": 28928.7511
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.073,
+              35.491749174917494
+            ],
+            [
+              45.073,
+              35.48074807480748
+            ],
+            [
+              45.051,
+              35.48074807480748
+            ],
+            [
+              45.051,
+              35.45874587458746
+            ],
+            [
+              45.029,
+              35.45874587458746
+            ],
+            [
+              45.029,
+              35.44774477447745
+            ],
+            [
+              45.062,
+              35.44774477447745
+            ],
+            [
+              45.062,
+              35.45874587458746
+            ],
+            [
+              45.073,
+              35.45874587458746
+            ],
+            [
+              45.073,
+              35.46974697469747
+            ],
+            [
+              45.084,
+              35.46974697469747
+            ],
+            [
+              45.084,
+              35.44774477447745
+            ],
+            [
+              45.106,
+              35.44774477447745
+            ],
+            [
+              45.106,
+              35.436743674367435
+            ],
+            [
+              45.095,
+              35.436743674367435
+            ],
+            [
+              45.095,
+              35.42574257425743
+            ],
+            [
+              45.084,
+              35.42574257425743
+            ],
+            [
+              45.084,
+              35.41474147414741
+            ],
+            [
+              45.095,
+              35.41474147414741
+            ],
+            [
+              45.095,
+              35.403740374037405
+            ],
+            [
+              45.106,
+              35.403740374037405
+            ],
+            [
+              45.106,
+              35.41474147414741
+            ],
+            [
+              45.117,
+              35.41474147414741
+            ],
+            [
+              45.117,
+              35.39273927392739
+            ],
+            [
+              45.128,
+              35.39273927392739
+            ],
+            [
+              45.128,
+              35.403740374037405
+            ],
+            [
+              45.139,
+              35.403740374037405
+            ],
+            [
+              45.139,
+              35.41474147414741
+            ],
+            [
+              45.15,
+              35.41474147414741
+            ],
+            [
+              45.15,
+              35.42574257425743
+            ],
+            [
+              45.161,
+              35.42574257425743
+            ],
+            [
+              45.161,
+              35.41474147414741
+            ],
+            [
+              45.172,
+              35.41474147414741
+            ],
+            [
+              45.172,
+              35.39273927392739
+            ],
+            [
+              45.194,
+              35.39273927392739
+            ],
+            [
+              45.194,
+              35.41474147414741
+            ],
+            [
+              45.183,
+              35.41474147414741
+            ],
+            [
+              45.183,
+              35.436743674367435
+            ],
+            [
+              45.161,
+              35.436743674367435
+            ],
+            [
+              45.161,
+              35.44774477447745
+            ],
+            [
+              45.172,
+              35.44774477447745
+            ],
+            [
+              45.172,
+              35.45874587458746
+            ],
+            [
+              45.161,
+              35.45874587458746
+            ],
+            [
+              45.161,
+              35.46974697469747
+            ],
+            [
+              45.15,
+              35.46974697469747
+            ],
+            [
+              45.15,
+              35.48074807480748
+            ],
+            [
+              45.139,
+              35.48074807480748
+            ],
+            [
+              45.139,
+              35.46974697469747
+            ],
+            [
+              45.128,
+              35.46974697469747
+            ],
+            [
+              45.128,
+              35.45874587458746
+            ],
+            [
+              45.106,
+              35.45874587458746
+            ],
+            [
+              45.106,
+              35.46974697469747
+            ],
+            [
+              45.117,
+              35.46974697469747
+            ],
+            [
+              45.117,
+              35.48074807480748
+            ],
+            [
+              45.084,
+              35.48074807480748
+            ],
+            [
+              45.084,
+              35.491749174917494
+            ],
+            [
+              45.073,
+              35.491749174917494
+            ]
+          ],
+          [
+            [
+              45.117,
+              35.436743674367435
+            ],
+            [
+              45.128,
+              35.436743674367435
+            ],
+            [
+              45.128,
+              35.41474147414741
+            ],
+            [
+              45.117,
+              35.41474147414741
+            ],
+            [
+              45.117,
+              35.436743674367435
+            ]
+          ],
+          [
+            [
+              45.139,
+              35.436743674367435
+            ],
+            [
+              45.15,
+              35.436743674367435
+            ],
+            [
+              45.15,
+              35.42574257425743
+            ],
+            [
+              45.139,
+              35.42574257425743
+            ],
+            [
+              45.139,
+              35.436743674367435
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 5,
+        "class_label": "Highly Suitable",
+        "area_km2": 4.8758,
+        "zone_id": "Z0003",
+        "centroid_lon": 45.11975,
+        "centroid_lat": 35.378988,
+        "bbox_min_lon": 45.106,
+        "bbox_min_lat": 35.370737,
+        "bbox_max_lon": 45.139,
+        "bbox_max_lat": 35.392739,
+        "governorate": "Sulaimaniya+Halabja",
+        "score_100": 94.5387,
+        "val_ghi": 1915.736,
+        "min_ghi": 1913.18,
+        "max_ghi": 1917.56,
+        "val_dni": 1961.027,
+        "min_dni": 1957.01,
+        "max_dni": 1969.79,
+        "val_gti": 2176.1599,
+        "min_gti": 2172.51,
+        "max_gti": 2179.45,
+        "val_temperature": 20.7894,
+        "min_temperature": 20.48,
+        "max_temperature": 20.94,
+        "val_pvout": 1687.1162,
+        "min_pvout": 1684.55,
+        "max_pvout": 1692.27,
+        "val_elevation": 630.6608,
+        "min_elevation": 609.17,
+        "max_elevation": 672.49,
+        "val_slope": 3.7522,
+        "min_slope": 1.44,
+        "max_slope": 4.5,
+        "val_landclass": 0.3498,
+        "min_landclass": 0.0,
+        "max_landclass": 0.6,
+        "val_soiltype": 9.5,
+        "min_soiltype": 9.5,
+        "max_soiltype": 9.5,
+        "val_dustsoiling": 1.0553,
+        "min_dustsoiling": 1.02,
+        "max_dustsoiling": 1.09,
+        "val_gridaccess": 996.9506,
+        "min_gridaccess": 0.0,
+        "max_gridaccess": 1993.9,
+        "pct_nodata": 0.0,
+        "pct_trees": 0.0,
+        "pct_cropland": 0.0,
+        "pct_grassland": 58.3,
+        "pct_forest": 41.7,
+        "pct_shrubland": 0.0,
+        "pct_bare": 0.0,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 58.3%, Forest 41.7%",
+        "city_distance_m": 11279.2081,
+        "border_distance_m": 29741.8958
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.106,
+              35.39273927392739
+            ],
+            [
+              45.106,
+              35.37073707370737
+            ],
+            [
+              45.139,
+              35.37073707370737
+            ],
+            [
+              45.139,
+              35.38173817381738
+            ],
+            [
+              45.117,
+              35.38173817381738
+            ],
+            [
+              45.117,
+              35.39273927392739
+            ],
+            [
+              45.106,
+              35.39273927392739
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 5,
+        "class_label": "Highly Suitable",
+        "area_km2": 92.6983,
+        "zone_id": "Z0004",
+        "centroid_lon": 45.046658,
+        "centroid_lat": 35.329483,
+        "bbox_min_lon": 44.974,
+        "bbox_min_lat": 35.249725,
+        "bbox_max_lon": 45.117,
+        "bbox_max_lat": 35.414741,
+        "governorate": "Sulaimaniya+Halabja",
+        "score_100": 94.0919,
+        "val_ghi": 1930.3459,
+        "min_ghi": 1906.97,
+        "max_ghi": 1951.17,
+        "val_dni": 1999.3781,
+        "min_dni": 1893.09,
+        "max_dni": 2066.58,
+        "val_gti": 2195.1521,
+        "min_gti": 2167.39,
+        "max_gti": 2219.26,
+        "val_temperature": 20.2516,
+        "min_temperature": 17.39,
+        "max_temperature": 22.26,
+        "val_pvout": 1707.399,
+        "min_pvout": 1678.98,
+        "max_pvout": 1749.89,
+        "val_elevation": 729.4167,
+        "min_elevation": 456.37,
+        "max_elevation": 1108.53,
+        "val_slope": 6.8714,
+        "min_slope": 1.71,
+        "max_slope": 29.0,
+        "val_landclass": 0.4402,
+        "min_landclass": 0.0,
+        "max_landclass": 1.0,
+        "val_soiltype": 9.5,
+        "min_soiltype": 9.5,
+        "max_soiltype": 9.5,
+        "val_dustsoiling": 1.0631,
+        "min_dustsoiling": 0.96,
+        "max_dustsoiling": 1.23,
+        "val_gridaccess": 7786.4331,
+        "min_gridaccess": 0.0,
+        "max_gridaccess": 13375.5,
+        "pct_nodata": 0.0,
+        "pct_trees": 0.0,
+        "pct_cropland": 0.0,
+        "pct_grassland": 60.7,
+        "pct_forest": 31.7,
+        "pct_shrubland": 0.0,
+        "pct_bare": 7.6,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 60.7%, Forest 31.7%, Bare 7.6%",
+        "city_distance_m": 14274.1605,
+        "border_distance_m": 25553.8488
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.018,
+              35.41474147414741
+            ],
+            [
+              45.018,
+              35.403740374037405
+            ],
+            [
+              45.029,
+              35.403740374037405
+            ],
+            [
+              45.029,
+              35.39273927392739
+            ],
+            [
+              45.018,
+              35.39273927392739
+            ],
+            [
+              45.018,
+              35.38173817381738
+            ],
+            [
+              45.007,
+              35.38173817381738
+            ],
+            [
+              45.007,
+              35.37073707370737
+            ],
+            [
+              45.029,
+              35.37073707370737
+            ],
+            [
+              45.029,
+              35.348734873487345
+            ],
+            [
+              45.018,
+              35.348734873487345
+            ],
+            [
+              45.018,
+              35.32673267326733
+            ],
+            [
+              45.007,
+              35.32673267326733
+            ],
+            [
+              45.007,
+              35.315731573157315
+            ],
+            [
+              44.985,
+              35.315731573157315
+            ],
+            [
+              44.985,
+              35.30473047304731
+            ],
+            [
+              44.974,
+              35.30473047304731
+            ],
+            [
+              44.974,
+              35.29372937293729
+            ],
+            [
+              44.996,
+              35.29372937293729
+            ],
+            [
+              44.996,
+              35.282728272827285
+            ],
+            [
+              45.007,
+              35.282728272827285
+            ],
+            [
+              45.007,
+              35.29372937293729
+            ],
+            [
+              45.018,
+              35.29372937293729
+            ],
+            [
+              45.018,
+              35.282728272827285
+            ],
+            [
+              45.029,
+              35.282728272827285
+            ],
+            [
+              45.029,
+              35.27172717271727
+            ],
+            [
+              45.04,
+              35.27172717271727
+            ],
+            [
+              45.04,
+              35.26072607260726
+            ],
+            [
+              45.062,
+              35.26072607260726
+            ],
+            [
+              45.062,
+              35.24972497249725
+            ],
+            [
+              45.073,
+              35.24972497249725
+            ],
+            [
+              45.073,
+              35.27172717271727
+            ],
+            [
+              45.084,
+              35.27172717271727
+            ],
+            [
+              45.084,
+              35.282728272827285
+            ],
+            [
+              45.073,
+              35.282728272827285
+            ],
+            [
+              45.073,
+              35.30473047304731
+            ],
+            [
+              45.084,
+              35.30473047304731
+            ],
+            [
+              45.084,
+              35.32673267326733
+            ],
+            [
+              45.106,
+              35.32673267326733
+            ],
+            [
+              45.106,
+              35.33773377337734
+            ],
+            [
+              45.117,
+              35.33773377337734
+            ],
+            [
+              45.117,
+              35.348734873487345
+            ],
+            [
+              45.095,
+              35.348734873487345
+            ],
+            [
+              45.095,
+              35.35973597359736
+            ],
+            [
+              45.084,
+              35.35973597359736
+            ],
+            [
+              45.084,
+              35.37073707370737
+            ],
+            [
+              45.073,
+              35.37073707370737
+            ],
+            [
+              45.073,
+              35.38173817381738
+            ],
+            [
+              45.062,
+              35.38173817381738
+            ],
+            [
+              45.062,
+              35.39273927392739
+            ],
+            [
+              45.051,
+              35.39273927392739
+            ],
+            [
+              45.051,
+              35.403740374037405
+            ],
+            [
+              45.04,
+              35.403740374037405
+            ],
+            [
+              45.04,
+              35.41474147414741
+            ],
+            [
+              45.018,
+              35.41474147414741
+            ]
+          ],
+          [
+            [
+              45.04,
+              35.39273927392739
+            ],
+            [
+              45.051,
+              35.39273927392739
+            ],
+            [
+              45.051,
+              35.38173817381738
+            ],
+            [
+              45.04,
+              35.38173817381738
+            ],
+            [
+              45.04,
+              35.39273927392739
+            ]
+          ],
+          [
+            [
+              45.073,
+              35.348734873487345
+            ],
+            [
+              45.084,
+              35.348734873487345
+            ],
+            [
+              45.084,
+              35.32673267326733
+            ],
+            [
+              45.073,
+              35.32673267326733
+            ],
+            [
+              45.073,
+              35.348734873487345
+            ]
+          ],
+          [
+            [
+              45.062,
+              35.32673267326733
+            ],
+            [
+              45.073,
+              35.32673267326733
+            ],
+            [
+              45.073,
+              35.315731573157315
+            ],
+            [
+              45.062,
+              35.315731573157315
+            ],
+            [
+              45.062,
+              35.32673267326733
+            ]
+          ],
+          [
+            [
+              45.029,
+              35.315731573157315
+            ],
+            [
+              45.04,
+              35.315731573157315
+            ],
+            [
+              45.04,
+              35.30473047304731
+            ],
+            [
+              45.029,
+              35.30473047304731
+            ],
+            [
+              45.029,
+              35.315731573157315
+            ]
+          ],
+          [
+            [
+              45.029,
+              35.29372937293729
+            ],
+            [
+              45.04,
+              35.29372937293729
+            ],
+            [
+              45.04,
+              35.282728272827285
+            ],
+            [
+              45.029,
+              35.282728272827285
+            ],
+            [
+              45.029,
+              35.29372937293729
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 5,
+        "class_label": "Highly Suitable",
+        "area_km2": 3.6241,
+        "zone_id": "Z0005",
+        "centroid_lon": 44.315833,
+        "centroid_lat": 36.116978,
+        "bbox_min_lon": 44.303,
+        "bbox_min_lat": 36.107811,
+        "bbox_max_lon": 44.325,
+        "bbox_max_lat": 36.129813,
+        "governorate": "Erbil",
+        "score_100": 92.3592,
+        "val_ghi": 1901.4919,
+        "min_ghi": 1898.94,
+        "max_ghi": 1904.05,
+        "val_dni": 1979.655,
+        "min_dni": 1959.57,
+        "max_dni": 1984.77,
+        "val_gti": 2161.1841,
+        "min_gti": 2157.9,
+        "max_gti": 2164.11,
+        "val_temperature": 19.894,
+        "min_temperature": 19.79,
+        "max_temperature": 20.32,
+        "val_pvout": 1686.5608,
+        "min_pvout": 1679.52,
+        "max_pvout": 1688.66,
+        "val_elevation": 631.1318,
+        "min_elevation": 560.37,
+        "max_elevation": 651.08,
+        "val_slope": 8.6559,
+        "min_slope": 5.04,
+        "max_slope": 11.17,
+        "val_landclass": 0.4668,
+        "min_landclass": 0.0,
+        "max_landclass": 0.6,
+        "val_soiltype": 9.5,
+        "min_soiltype": 9.5,
+        "max_soiltype": 9.5,
+        "val_dustsoiling": 1.0458,
+        "min_dustsoiling": 1.03,
+        "max_dustsoiling": 1.05,
+        "val_gridaccess": 4458.4985,
+        "min_gridaccess": 3152.63,
+        "max_gridaccess": 5813.17,
+        "pct_nodata": 0.0,
+        "pct_trees": 0.0,
+        "pct_cropland": 0.0,
+        "pct_grassland": 77.8,
+        "pct_forest": 22.2,
+        "pct_shrubland": 0.0,
+        "pct_bare": 0.0,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 77.8%, Forest 22.2%",
+        "city_distance_m": 10783.6697,
+        "border_distance_m": 23947.575
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              44.314,
+              36.12981298129813
+            ],
+            [
+              44.314,
+              36.118811881188115
+            ],
+            [
+              44.303,
+              36.118811881188115
+            ],
+            [
+              44.303,
+              36.10781078107811
+            ],
+            [
+              44.325,
+              36.10781078107811
+            ],
+            [
+              44.325,
+              36.12981298129813
+            ],
+            [
+              44.314,
+              36.12981298129813
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 5,
+        "class_label": "Highly Suitable",
+        "area_km2": 17.0578,
+        "zone_id": "Z0006",
+        "centroid_lon": 45.233286,
+        "centroid_lat": 35.417885,
+        "bbox_min_lon": 45.194,
+        "bbox_min_lat": 35.392739,
+        "bbox_max_lon": 45.26,
+        "bbox_max_lat": 35.436744,
+        "governorate": "Sulaimaniya+Halabja",
+        "score_100": 90.7242,
+        "val_ghi": 1907.3361,
+        "min_ghi": 1817.85,
+        "max_ghi": 1939.11,
+        "val_dni": 1945.322,
+        "min_dni": 1764.16,
+        "max_dni": 2081.56,
+        "val_gti": 2149.8621,
+        "min_gti": 2039.19,
+        "max_gti": 2202.09,
+        "val_temperature": 18.6512,
+        "min_temperature": 14.88,
+        "max_temperature": 19.75,
+        "val_pvout": 1682.2303,
+        "min_pvout": 1674.99,
+        "max_pvout": 1747.12,
+        "val_elevation": 883.7645,
+        "min_elevation": 761.66,
+        "max_elevation": 1432.94,
+        "val_slope": 12.8239,
+        "min_slope": 5.8,
+        "max_slope": 26.78,
+        "val_landclass": 0.5484,
+        "min_landclass": 0.0,
+        "max_landclass": 0.6,
+        "val_soiltype": 9.5,
+        "min_soiltype": 9.5,
+        "max_soiltype": 9.5,
+        "val_dustsoiling": 0.9443,
+        "min_dustsoiling": 0.93,
+        "max_dustsoiling": 1.01,
+        "val_gridaccess": 9869.3076,
+        "min_gridaccess": 5639.6,
+        "max_gridaccess": 10597.73,
+        "pct_nodata": 0.0,
+        "pct_trees": 2.9,
+        "pct_cropland": 0.0,
+        "pct_grassland": 91.4,
+        "pct_forest": 5.7,
+        "pct_shrubland": 0.0,
+        "pct_bare": 0.0,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 91.4%, Forest 5.7%, Trees 2.9%",
+        "city_distance_m": 11146.2463,
+        "border_distance_m": 40076.9161
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.216,
+              35.436743674367435
+            ],
+            [
+              45.216,
+              35.42574257425743
+            ],
+            [
+              45.194,
+              35.42574257425743
+            ],
+            [
+              45.194,
+              35.41474147414741
+            ],
+            [
+              45.216,
+              35.41474147414741
+            ],
+            [
+              45.216,
+              35.403740374037405
+            ],
+            [
+              45.249,
+              35.403740374037405
+            ],
+            [
+              45.249,
+              35.39273927392739
+            ],
+            [
+              45.26,
+              35.39273927392739
+            ],
+            [
+              45.26,
+              35.42574257425743
+            ],
+            [
+              45.249,
+              35.42574257425743
+            ],
+            [
+              45.249,
+              35.436743674367435
+            ],
+            [
+              45.216,
+              35.436743674367435
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 5,
+        "class_label": "Highly Suitable",
+        "area_km2": 14.6696,
+        "zone_id": "Z0007",
+        "centroid_lon": 45.555167,
+        "centroid_lat": 35.147965,
+        "bbox_min_lon": 45.524,
+        "bbox_min_lat": 35.117712,
+        "bbox_max_lon": 45.579,
+        "bbox_max_lat": 35.172717,
+        "governorate": "Sulaimaniya+Halabja",
+        "score_100": 90.5813,
+        "val_ghi": 1907.3361,
+        "min_ghi": 1686.36,
+        "max_ghi": 1948.61,
+        "val_dni": 1926.329,
+        "min_dni": 1562.17,
+        "max_dni": 2047.23,
+        "val_gti": 2150.592,
+        "min_gti": 1817.12,
+        "max_gti": 2211.22,
+        "val_temperature": 20.4031,
+        "min_temperature": 14.8,
+        "max_temperature": 21.38,
+        "val_pvout": 1676.9232,
+        "min_pvout": 1610.53,
+        "max_pvout": 1736.66,
+        "val_elevation": 673.8283,
+        "min_elevation": 553.17,
+        "max_elevation": 1347.05,
+        "val_slope": 12.475,
+        "min_slope": 6.6,
+        "max_slope": 43.53,
+        "val_landclass": 0.5228,
+        "min_landclass": 0.0,
+        "max_landclass": 1.0,
+        "val_soiltype": 9.5,
+        "min_soiltype": 9.5,
+        "max_soiltype": 9.5,
+        "val_dustsoiling": 1.1197,
+        "min_dustsoiling": 1.07,
+        "max_dustsoiling": 1.16,
+        "val_gridaccess": 8221.0645,
+        "min_gridaccess": 4984.75,
+        "max_gridaccess": 11011.68,
+        "pct_nodata": 0.0,
+        "pct_trees": 8.3,
+        "pct_cropland": 0.0,
+        "pct_grassland": 77.8,
+        "pct_forest": 8.3,
+        "pct_shrubland": 0.0,
+        "pct_bare": 5.6,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 77.8%, Trees 8.3%, Forest 8.3%, Bare 5.6%",
+        "city_distance_m": 11366.9857,
+        "border_distance_m": 20959.6858
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.535,
+              35.17271727172717
+            ],
+            [
+              45.535,
+              35.16171617161716
+            ],
+            [
+              45.524,
+              35.16171617161716
+            ],
+            [
+              45.524,
+              35.15071507150715
+            ],
+            [
+              45.546,
+              35.15071507150715
+            ],
+            [
+              45.546,
+              35.12871287128713
+            ],
+            [
+              45.568,
+              35.12871287128713
+            ],
+            [
+              45.568,
+              35.11771177117712
+            ],
+            [
+              45.579,
+              35.11771177117712
+            ],
+            [
+              45.579,
+              35.13971397139714
+            ],
+            [
+              45.568,
+              35.13971397139714
+            ],
+            [
+              45.568,
+              35.17271727172717
+            ],
+            [
+              45.557,
+              35.17271727172717
+            ],
+            [
+              45.557,
+              35.16171617161716
+            ],
+            [
+              45.546,
+              35.16171617161716
+            ],
+            [
+              45.546,
+              35.17271727172717
+            ],
+            [
+              45.535,
+              35.17271727172717
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 5,
+        "class_label": "Highly Suitable",
+        "area_km2": 7.2507,
+        "zone_id": "Z0008",
+        "centroid_lon": 44.3415,
+        "centroid_lat": 36.085809,
+        "bbox_min_lon": 44.325,
+        "bbox_min_lat": 36.074807,
+        "bbox_max_lon": 44.369,
+        "bbox_max_lat": 36.107811,
+        "governorate": "Erbil",
+        "score_100": 87.3311,
+        "val_ghi": 1898.5699,
+        "min_ghi": 1893.46,
+        "max_ghi": 1901.49,
+        "val_dni": 1959.932,
+        "min_dni": 1918.66,
+        "max_dni": 1973.81,
+        "val_gti": 2158.6279,
+        "min_gti": 2150.96,
+        "max_gti": 2160.82,
+        "val_temperature": 20.5144,
+        "min_temperature": 19.77,
+        "max_temperature": 20.56,
+        "val_pvout": 1677.6096,
+        "min_pvout": 1675.56,
+        "max_pvout": 1686.44,
+        "val_elevation": 534.2585,
+        "min_elevation": 513.89,
+        "max_elevation": 618.21,
+        "val_slope": 11.0884,
+        "min_slope": 3.26,
+        "max_slope": 15.77,
+        "val_landclass": 0.56,
+        "min_landclass": 0.0,
+        "max_landclass": 1.0,
+        "val_soiltype": 9.5,
+        "min_soiltype": 9.5,
+        "max_soiltype": 9.5,
+        "val_dustsoiling": 1.0451,
+        "min_dustsoiling": 1.04,
+        "max_dustsoiling": 1.06,
+        "val_gridaccess": 4984.7529,
+        "min_gridaccess": 2229.25,
+        "max_gridaccess": 6687.75,
+        "pct_nodata": 0.0,
+        "pct_trees": 0.0,
+        "pct_cropland": 0.0,
+        "pct_grassland": 85.0,
+        "pct_forest": 10.0,
+        "pct_shrubland": 0.0,
+        "pct_bare": 5.0,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 85.0%, Forest 10.0%, Bare 5.0%",
+        "city_distance_m": 10783.6697,
+        "border_distance_m": 20552.6628
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              44.325,
+              36.10781078107811
+            ],
+            [
+              44.325,
+              36.07480748074808
+            ],
+            [
+              44.369,
+              36.07480748074808
+            ],
+            [
+              44.369,
+              36.085808580858085
+            ],
+            [
+              44.336,
+              36.085808580858085
+            ],
+            [
+              44.336,
+              36.10781078107811
+            ],
+            [
+              44.325,
+              36.10781078107811
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 5,
+        "class_label": "Highly Suitable",
+        "area_km2": 3.6554,
+        "zone_id": "Z0009",
+        "centroid_lon": 45.280167,
+        "centroid_lat": 35.412908,
+        "bbox_min_lon": 45.271,
+        "bbox_min_lat": 35.40374,
+        "bbox_max_lon": 45.293,
+        "bbox_max_lat": 35.425743,
+        "governorate": "Sulaimaniya+Halabja",
+        "score_100": 85.0141,
+        "val_ghi": 1917.197,
+        "min_ghi": 1916.1,
+        "max_ghi": 1927.79,
+        "val_dni": 1963.949,
+        "min_dni": 1963.95,
+        "max_dni": 2019.83,
+        "val_gti": 2168.854,
+        "min_gti": 2166.66,
+        "max_gti": 2188.94,
+        "val_temperature": 19.36,
+        "min_temperature": 19.04,
+        "max_temperature": 19.44,
+        "val_pvout": 1698.4686,
+        "min_pvout": 1692.14,
+        "max_pvout": 1710.71,
+        "val_elevation": 807.8481,
+        "min_elevation": 807.85,
+        "max_elevation": 853.12,
+        "val_slope": 7.2371,
+        "min_slope": 5.68,
+        "max_slope": 11.92,
+        "val_landclass": 0.3336,
+        "min_landclass": 0.0,
+        "max_landclass": 0.6,
+        "val_soiltype": 9.5,
+        "min_soiltype": 9.5,
+        "max_soiltype": 9.5,
+        "val_dustsoiling": 0.9469,
+        "min_dustsoiling": 0.94,
+        "max_dustsoiling": 0.95,
+        "val_gridaccess": 10019.2295,
+        "min_gridaccess": 8917.0,
+        "max_gridaccess": 11011.68,
+        "pct_nodata": 0.0,
+        "pct_trees": 0.0,
+        "pct_cropland": 0.0,
+        "pct_grassland": 55.6,
+        "pct_forest": 44.4,
+        "pct_shrubland": 0.0,
+        "pct_bare": 0.0,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 55.6%, Forest 44.4%",
+        "city_distance_m": 12128.4277,
+        "border_distance_m": 44046.7147
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.271,
+              35.42574257425743
+            ],
+            [
+              45.271,
+              35.403740374037405
+            ],
+            [
+              45.293,
+              35.403740374037405
+            ],
+            [
+              45.293,
+              35.41474147414741
+            ],
+            [
+              45.282,
+              35.41474147414741
+            ],
+            [
+              45.282,
+              35.42574257425743
+            ],
+            [
+              45.271,
+              35.42574257425743
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 5,
+        "class_label": "Highly Suitable",
+        "area_km2": 3.6638,
+        "zone_id": "Z0010",
+        "centroid_lon": 45.324167,
+        "centroid_lat": 35.225889,
+        "bbox_min_lon": 45.315,
+        "bbox_min_lat": 35.216722,
+        "bbox_max_lon": 45.337,
+        "bbox_max_lat": 35.238724,
+        "governorate": "Sulaimaniya+Halabja",
+        "score_100": 84.6465,
+        "val_ghi": 1930.7111,
+        "min_ghi": 1927.42,
+        "max_ghi": 1932.17,
+        "val_dni": 2021.2939,
+        "min_dni": 2008.88,
+        "max_dni": 2028.96,
+        "val_gti": 2194.0569,
+        "min_gti": 2187.12,
+        "max_gti": 2196.98,
+        "val_temperature": 18.401,
+        "min_temperature": 17.24,
+        "max_temperature": 18.95,
+        "val_pvout": 1720.9999,
+        "min_pvout": 1714.92,
+        "max_pvout": 1730.46,
+        "val_elevation": 943.7386,
+        "min_elevation": 891.49,
+        "max_elevation": 1068.9,
+        "val_slope": 7.6899,
+        "min_slope": 3.87,
+        "max_slope": 16.04,
+        "val_landclass": 0.3336,
+        "min_landclass": 0.0,
+        "max_landclass": 0.6,
+        "val_soiltype": 9.5,
+        "min_soiltype": 9.5,
+        "max_soiltype": 9.5,
+        "val_dustsoiling": 0.993,
+        "min_dustsoiling": 0.97,
+        "max_dustsoiling": 1.0,
+        "val_gridaccess": 14719.7988,
+        "min_gridaccess": 13375.5,
+        "max_gridaccess": 15951.21,
+        "pct_nodata": 0.0,
+        "pct_trees": 0.0,
+        "pct_cropland": 0.0,
+        "pct_grassland": 55.6,
+        "pct_forest": 44.4,
+        "pct_shrubland": 0.0,
+        "pct_bare": 0.0,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 55.6%, Forest 44.4%",
+        "city_distance_m": 11626.3414,
+        "border_distance_m": 41919.3716
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.315,
+              35.23872387238724
+            ],
+            [
+              45.315,
+              35.21672167216722
+            ],
+            [
+              45.337,
+              35.21672167216722
+            ],
+            [
+              45.337,
+              35.227722772277225
+            ],
+            [
+              45.326,
+              35.227722772277225
+            ],
+            [
+              45.326,
+              35.23872387238724
+            ],
+            [
+              45.315,
+              35.23872387238724
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 5,
+        "class_label": "Highly Suitable",
+        "area_km2": 3.6665,
+        "zone_id": "Z0011",
+        "centroid_lon": 45.5075,
+        "centroid_lat": 35.167217,
+        "bbox_min_lon": 45.491,
+        "bbox_min_lat": 35.161716,
+        "bbox_max_lon": 45.524,
+        "bbox_max_lat": 35.172717,
+        "governorate": "Sulaimaniya+Halabja",
+        "score_100": 84.6207,
+        "val_ghi": 1912.084,
+        "min_ghi": 1581.53,
+        "max_ghi": 1914.28,
+        "val_dni": 1948.609,
+        "min_dni": 1427.4,
+        "max_dni": 1954.09,
+        "val_gti": 2158.6279,
+        "min_gti": 1691.84,
+        "max_gti": 2164.84,
+        "val_temperature": 19.5019,
+        "min_temperature": 16.92,
+        "max_temperature": 20.09,
+        "val_pvout": 1677.4824,
+        "min_pvout": 1517.19,
+        "max_pvout": 1684.09,
+        "val_elevation": 767.5818,
+        "min_elevation": 694.62,
+        "max_elevation": 1271.84,
+        "val_slope": 7.4621,
+        "min_slope": 7.46,
+        "max_slope": 30.69,
+        "val_landclass": 0.45,
+        "min_landclass": 0.0,
+        "max_landclass": 0.6,
+        "val_soiltype": 9.5,
+        "min_soiltype": 9.5,
+        "max_soiltype": 9.5,
+        "val_dustsoiling": 1.0741,
+        "min_dustsoiling": 1.03,
+        "max_dustsoiling": 1.08,
+        "val_gridaccess": 11963.4072,
+        "min_gridaccess": 10966.46,
+        "max_gridaccess": 13957.31,
+        "pct_nodata": 0.0,
+        "pct_trees": 12.5,
+        "pct_cropland": 0.0,
+        "pct_grassland": 75.0,
+        "pct_forest": 12.5,
+        "pct_shrubland": 0.0,
+        "pct_bare": 0.0,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 75.0%, Trees 12.5%, Forest 12.5%",
+        "city_distance_m": 10019.229,
+        "border_distance_m": 24923.7646
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.491,
+              35.17271727172717
+            ],
+            [
+              45.491,
+              35.16171617161716
+            ],
+            [
+              45.524,
+              35.16171617161716
+            ],
+            [
+              45.524,
+              35.17271727172717
+            ],
+            [
+              45.491,
+              35.17271727172717
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 5,
+        "class_label": "Highly Suitable",
+        "area_km2": 4.8947,
+        "zone_id": "Z0012",
+        "centroid_lon": 45.2655,
+        "centroid_lat": 35.062706,
+        "bbox_min_lon": 45.249,
+        "bbox_min_lat": 35.051705,
+        "bbox_max_lon": 45.282,
+        "bbox_max_lat": 35.073707,
+        "governorate": "Sulaimaniya+Halabja",
+        "score_100": 83.916,
+        "val_ghi": 1929.25,
+        "min_ghi": 1925.6,
+        "max_ghi": 1932.17,
+        "val_dni": 1964.6801,
+        "min_dni": 1941.67,
+        "max_dni": 1976.73,
+        "val_gti": 2187.4819,
+        "min_gti": 2183.46,
+        "max_gti": 2191.86,
+        "val_temperature": 21.6843,
+        "min_temperature": 21.42,
+        "max_temperature": 22.0,
+        "val_pvout": 1695.5392,
+        "min_pvout": 1688.41,
+        "max_pvout": 1701.64,
+        "val_elevation": 646.9344,
+        "min_elevation": 575.52,
+        "max_elevation": 668.68,
+        "val_slope": 8.4857,
+        "min_slope": 3.01,
+        "max_slope": 11.79,
+        "val_landclass": 0.4328,
+        "min_landclass": 0.0,
+        "max_landclass": 1.0,
+        "val_soiltype": 9.5,
+        "min_soiltype": 9.5,
+        "max_soiltype": 9.5,
+        "val_dustsoiling": 1.0607,
+        "min_dustsoiling": 1.05,
+        "max_dustsoiling": 1.07,
+        "val_gridaccess": 14515.8193,
+        "min_gridaccess": 12331.6,
+        "max_gridaccess": 15763.17,
+        "pct_nodata": 0.0,
+        "pct_trees": 0.0,
+        "pct_cropland": 0.0,
+        "pct_grassland": 58.3,
+        "pct_forest": 33.3,
+        "pct_shrubland": 0.0,
+        "pct_bare": 8.3,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 58.3%, Forest 33.3%, Bare 8.3%",
+        "city_distance_m": 11963.407,
+        "border_distance_m": 43284.1926
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              45.249,
+              35.073707370737075
+            ],
+            [
+              45.249,
+              35.06270627062706
+            ],
+            [
+              45.26,
+              35.06270627062706
+            ],
+            [
+              45.26,
+              35.05170517051705
+            ],
+            [
+              45.282,
+              35.05170517051705
+            ],
+            [
+              45.282,
+              35.06270627062706
+            ],
+            [
+              45.271,
+              35.06270627062706
+            ],
+            [
+              45.271,
+              35.073707370737075
+            ],
+            [
+              45.249,
+              35.073707370737075
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 4,
+        "class_label": "Suitable",
+        "area_km2": 5.9838,
+        "zone_id": "Z0013",
+        "centroid_lon": 43.7695,
+        "centroid_lat": 36.872387,
+        "bbox_min_lon": 43.742,
+        "bbox_min_lat": 36.866887,
+        "bbox_max_lon": 43.797,
+        "bbox_max_lat": 36.877888,
+        "governorate": "Duhok",
+        "score_100": 81.9786,
+        "val_ghi": 1860.584,
+        "min_ghi": 1847.8,
+        "max_ghi": 1868.62,
+        "val_dni": 2000.474,
+        "min_dni": 1930.35,
+        "max_dni": 2027.5,
+        "val_gti": 2115.8931,
+        "min_gti": 2103.11,
+        "max_gti": 2128.31,
+        "val_temperature": 18.0636,
+        "min_temperature": 16.53,
+        "max_temperature": 18.42,
+        "val_pvout": 1667.5985,
+        "min_pvout": 1662.37,
+        "max_pvout": 1685.72,
+        "val_elevation": 669.1578,
+        "min_elevation": 613.93,
+        "max_elevation": 851.59,
+        "val_slope": 10.9849,
+        "min_slope": 6.31,
+        "max_slope": 30.5,
+        "val_landclass": 0.6,
+        "min_landclass": 0.6,
+        "max_landclass": 0.6,
+        "val_soiltype": 8.5,
+        "min_soiltype": 8.5,
+        "max_soiltype": 8.5,
+        "val_dustsoiling": 0.8817,
+        "min_dustsoiling": 0.85,
+        "max_dustsoiling": 0.88,
+        "val_gridaccess": 16502.4688,
+        "min_gridaccess": 14378.23,
+        "max_gridaccess": 16918.81,
+        "pct_nodata": 0.0,
+        "pct_trees": 0.0,
+        "pct_cropland": 0.0,
+        "pct_grassland": 100.0,
+        "pct_forest": 0.0,
+        "pct_shrubland": 0.0,
+        "pct_bare": 0.0,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 100.0%",
+        "city_distance_m": 10783.6697,
+        "border_distance_m": 30321.0683
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              43.742,
+              36.87788778877888
+            ],
+            [
+              43.742,
+              36.86688668866887
+            ],
+            [
+              43.797,
+              36.86688668866887
+            ],
+            [
+              43.797,
+              36.87788778877888
+            ],
+            [
+              43.742,
+              36.87788778877888
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 5,
+        "class_label": "Highly Suitable",
+        "area_km2": 15.5667,
+        "zone_id": "Z0014",
+        "centroid_lon": 43.749192,
+        "centroid_lat": 36.858001,
+        "bbox_min_lon": 43.698,
+        "bbox_min_lat": 36.844884,
+        "bbox_max_lon": 43.797,
+        "bbox_max_lat": 36.866887,
+        "governorate": "Duhok",
+        "score_100": 81.5042,
+        "val_ghi": 1850.722,
+        "min_ghi": 1840.13,
+        "max_ghi": 1860.95,
+        "val_dni": 1962.854,
+        "min_dni": 1905.87,
+        "max_dni": 2000.47,
+        "val_gti": 2101.283,
+        "min_gti": 2066.58,
+        "max_gti": 2117.72,
+        "val_temperature": 18.796,
+        "min_temperature": 17.7,
+        "max_temperature": 19.12,
+        "val_pvout": 1638.225,
+        "min_pvout": 1626.84,
+        "max_pvout": 1670.76,
+        "val_elevation": 574.6285,
+        "min_elevation": 534.69,
+        "max_elevation": 715.08,
+        "val_slope": 6.9492,
+        "min_slope": 3.44,
+        "max_slope": 24.54,
+        "val_landclass": 0.3798,
+        "min_landclass": 0.0,
+        "max_landclass": 0.6,
+        "val_soiltype": 8.5,
+        "min_soiltype": 8.5,
+        "max_soiltype": 8.5,
+        "val_dustsoiling": 0.8596,
+        "min_dustsoiling": 0.85,
+        "max_dustsoiling": 0.9,
+        "val_gridaccess": 16592.5645,
+        "min_gridaccess": 13559.99,
+        "max_gridaccess": 16592.56,
+        "pct_nodata": 0.0,
+        "pct_trees": 10.0,
+        "pct_cropland": 0.0,
+        "pct_grassland": 63.3,
+        "pct_forest": 26.7,
+        "pct_shrubland": 0.0,
+        "pct_bare": 0.0,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 63.3%, Forest 26.7%, Trees 10.0%",
+        "city_distance_m": 11279.2081,
+        "border_distance_m": 31683.5847
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              43.698,
+              36.86688668866887
+            ],
+            [
+              43.698,
+              36.855885588558856
+            ],
+            [
+              43.731,
+              36.855885588558856
+            ],
+            [
+              43.731,
+              36.84488448844885
+            ],
+            [
+              43.775,
+              36.84488448844885
+            ],
+            [
+              43.775,
+              36.855885588558856
+            ],
+            [
+              43.797,
+              36.855885588558856
+            ],
+            [
+              43.797,
+              36.86688668866887
+            ],
+            [
+              43.698,
+              36.86688668866887
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 5,
+        "class_label": "Highly Suitable",
+        "area_km2": 3.5946,
+        "zone_id": "Z0015",
+        "centroid_lon": 43.732833,
+        "centroid_lat": 36.780711,
+        "bbox_min_lon": 43.72,
+        "bbox_min_lat": 36.767877,
+        "bbox_max_lon": 43.742,
+        "bbox_max_lat": 36.789879,
+        "governorate": "Duhok",
+        "score_100": 81.4746,
+        "val_ghi": 1868.254,
+        "min_ghi": 1866.43,
+        "max_ghi": 1869.71,
+        "val_dni": 1988.421,
+        "min_dni": 1977.1,
+        "max_dni": 1996.09,
+        "val_gti": 2130.1379,
+        "min_gti": 2127.58,
+        "max_gti": 2133.43,
+        "val_temperature": 18.7802,
+        "min_temperature": 18.35,
+        "max_temperature": 19.03,
+        "val_pvout": 1668.5507,
+        "min_pvout": 1664.93,
+        "max_pvout": 1673.4,
+        "val_elevation": 580.4658,
+        "min_elevation": 554.44,
+        "max_elevation": 644.24,
+        "val_slope": 7.7259,
+        "min_slope": 3.21,
+        "max_slope": 12.91,
+        "val_landclass": 0.4668,
+        "min_landclass": 0.0,
+        "max_landclass": 0.6,
+        "val_soiltype": 8.5,
+        "min_soiltype": 8.5,
+        "max_soiltype": 8.5,
+        "val_dustsoiling": 0.9436,
+        "min_dustsoiling": 0.93,
+        "max_dustsoiling": 0.96,
+        "val_gridaccess": 12004.875,
+        "min_gridaccess": 10597.73,
+        "max_gridaccess": 13412.6,
+        "pct_nodata": 0.0,
+        "pct_trees": 0.0,
+        "pct_cropland": 0.0,
+        "pct_grassland": 77.8,
+        "pct_forest": 22.2,
+        "pct_shrubland": 0.0,
+        "pct_bare": 0.0,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 77.8%, Forest 22.2%",
+        "city_distance_m": 10019.229,
+        "border_distance_m": 32104.2854
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              43.72,
+              36.78987898789879
+            ],
+            [
+              43.72,
+              36.77887788778878
+            ],
+            [
+              43.731,
+              36.77887788778878
+            ],
+            [
+              43.731,
+              36.767876787678766
+            ],
+            [
+              43.742,
+              36.767876787678766
+            ],
+            [
+              43.742,
+              36.78987898789879
+            ],
+            [
+              43.72,
+              36.78987898789879
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 5,
+        "class_label": "Highly Suitable",
+        "area_km2": 3.5914,
+        "zone_id": "Z0016",
+        "centroid_lon": 44.5725,
+        "centroid_lat": 36.828383,
+        "bbox_min_lon": 44.567,
+        "bbox_min_lat": 36.811881,
+        "bbox_max_lon": 44.578,
+        "bbox_max_lat": 36.844884,
+        "governorate": "Erbil",
+        "score_100": 81.4006,
+        "val_ghi": 1864.601,
+        "min_ghi": 1813.47,
+        "max_ghi": 1867.89,
+        "val_dni": 1980.386,
+        "min_dni": 1807.62,
+        "max_dni": 1992.8,
+        "val_gti": 2115.5281,
+        "min_gti": 2016.55,
+        "max_gti": 2121.74,
+        "val_temperature": 18.3128,
+        "min_temperature": 18.1,
+        "max_temperature": 18.67,
+        "val_pvout": 1658.8685,
+        "min_pvout": 1629.6,
+        "max_pvout": 1664.18,
+        "val_elevation": 902.7939,
+        "min_elevation": 854.27,
+        "max_elevation": 934.3,
+        "val_slope": 12.1121,
+        "min_slope": 11.61,
+        "max_slope": 23.71,
+        "val_landclass": 0.6,
+        "min_landclass": 0.6,
+        "max_landclass": 0.6,
+        "val_soiltype": 8.5,
+        "min_soiltype": 8.5,
+        "max_soiltype": 8.5,
+        "val_dustsoiling": 0.8748,
+        "min_dustsoiling": 0.84,
+        "max_dustsoiling": 0.89,
+        "val_gridaccess": 15508.9111,
+        "min_gridaccess": 14099.01,
+        "max_gridaccess": 16918.81,
+        "pct_nodata": 0.0,
+        "pct_trees": 0.0,
+        "pct_cropland": 0.0,
+        "pct_grassland": 100.0,
+        "pct_forest": 0.0,
+        "pct_shrubland": 0.0,
+        "pct_bare": 0.0,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 100.0%",
+        "city_distance_m": 10166.941,
+        "border_distance_m": 23947.575
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              44.567,
+              36.84488448844885
+            ],
+            [
+              44.567,
+              36.81188118811881
+            ],
+            [
+              44.578,
+              36.81188118811881
+            ],
+            [
+              44.578,
+              36.84488448844885
+            ],
+            [
+              44.567,
+              36.84488448844885
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 5,
+        "class_label": "Highly Suitable",
+        "area_km2": 16.7556,
+        "zone_id": "Z0017",
+        "centroid_lon": 44.5395,
+        "centroid_lat": 36.847242,
+        "bbox_min_lon": 44.512,
+        "bbox_min_lat": 36.822882,
+        "bbox_max_lon": 44.567,
+        "bbox_max_lat": 36.877888,
+        "governorate": "Erbil",
+        "score_100": 81.2812,
+        "val_ghi": 1854.009,
+        "min_ghi": 1835.38,
+        "max_ghi": 1864.97,
+        "val_dni": 1926.694,
+        "min_dni": 1870.44,
+        "max_dni": 1986.96,
+        "val_gti": 2095.439,
+        "min_gti": 2048.32,
+        "max_gti": 2115.89,
+        "val_temperature": 18.7368,
+        "min_temperature": 17.93,
+        "max_temperature": 19.04,
+        "val_pvout": 1649.2729,
+        "min_pvout": 1630.22,
+        "max_pvout": 1660.14,
+        "val_elevation": 821.53,
+        "min_elevation": 791.64,
+        "max_elevation": 907.52,
+        "val_slope": 11.7212,
+        "min_slope": 5.15,
+        "max_slope": 25.68,
+        "val_landclass": 0.5502,
+        "min_landclass": 0.0,
+        "max_landclass": 0.6,
+        "val_soiltype": 8.5,
+        "min_soiltype": 8.5,
+        "max_soiltype": 8.5,
+        "val_dustsoiling": 0.891,
+        "min_dustsoiling": 0.82,
+        "max_dustsoiling": 0.91,
+        "val_gridaccess": 14169.3301,
+        "min_gridaccess": 11366.99,
+        "max_gridaccess": 18382.86,
+        "pct_nodata": 0.0,
+        "pct_trees": 0.0,
+        "pct_cropland": 0.0,
+        "pct_grassland": 91.7,
+        "pct_forest": 8.3,
+        "pct_shrubland": 0.0,
+        "pct_bare": 0.0,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 91.7%, Forest 8.3%",
+        "city_distance_m": 12998.645,
+        "border_distance_m": 21864.8342
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              44.556,
+              36.87788778877888
+            ],
+            [
+              44.556,
+              36.86688668866887
+            ],
+            [
+              44.534,
+              36.86688668866887
+            ],
+            [
+              44.534,
+              36.84488448844885
+            ],
+            [
+              44.523,
+              36.84488448844885
+            ],
+            [
+              44.523,
+              36.855885588558856
+            ],
+            [
+              44.512,
+              36.855885588558856
+            ],
+            [
+              44.512,
+              36.822882288228826
+            ],
+            [
+              44.545,
+              36.822882288228826
+            ],
+            [
+              44.545,
+              36.84488448844885
+            ],
+            [
+              44.567,
+              36.84488448844885
+            ],
+            [
+              44.567,
+              36.87788778877888
+            ],
+            [
+              44.556,
+              36.87788778877888
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 4,
+        "class_label": "Suitable",
+        "area_km2": 9.583,
+        "zone_id": "Z0018",
+        "centroid_lon": 43.71725,
+        "centroid_lat": 36.802255,
+        "bbox_min_lon": 43.698,
+        "bbox_min_lat": 36.778878,
+        "bbox_max_lon": 43.731,
+        "bbox_max_lat": 36.822882,
+        "governorate": "Duhok",
+        "score_100": 78.6742,
+        "val_ghi": 1862.775,
+        "min_ghi": 1845.24,
+        "max_ghi": 1874.46,
+        "val_dni": 1949.339,
+        "min_dni": 1901.49,
+        "max_dni": 2014.35,
+        "val_gti": 2122.1021,
+        "min_gti": 2085.94,
+        "max_gti": 2138.54,
+        "val_temperature": 17.8221,
+        "min_temperature": 15.49,
+        "max_temperature": 18.86,
+        "val_pvout": 1678.397,
+        "min_pvout": 1648.63,
+        "max_pvout": 1682.58,
+        "val_elevation": 749.8273,
+        "min_elevation": 574.92,
+        "max_elevation": 984.13,
+        "val_slope": 16.3128,
+        "min_slope": 7.73,
+        "max_slope": 20.96,
+        "val_landclass": 0.54,
+        "min_landclass": 0.0,
+        "max_landclass": 0.6,
+        "val_soiltype": 8.5,
+        "min_soiltype": 8.5,
+        "max_soiltype": 8.5,
+        "val_dustsoiling": 0.9436,
+        "min_dustsoiling": 0.9,
+        "max_dustsoiling": 0.98,
+        "val_gridaccess": 14169.3301,
+        "min_gridaccess": 12004.88,
+        "max_gridaccess": 16948.16,
+        "pct_nodata": 0.0,
+        "pct_trees": 5.0,
+        "pct_cropland": 0.0,
+        "pct_grassland": 90.0,
+        "pct_forest": 5.0,
+        "pct_shrubland": 0.0,
+        "pct_bare": 0.0,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 90.0%, Trees 5.0%, Forest 5.0%",
+        "city_distance_m": 11366.9857,
+        "border_distance_m": 33185.1278
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              43.709,
+              36.822882288228826
+            ],
+            [
+              43.709,
+              36.8008800880088
+            ],
+            [
+              43.698,
+              36.8008800880088
+            ],
+            [
+              43.698,
+              36.78987898789879
+            ],
+            [
+              43.709,
+              36.78987898789879
+            ],
+            [
+              43.709,
+              36.77887788778878
+            ],
+            [
+              43.72,
+              36.77887788778878
+            ],
+            [
+              43.72,
+              36.78987898789879
+            ],
+            [
+              43.731,
+              36.78987898789879
+            ],
+            [
+              43.731,
+              36.822882288228826
+            ],
+            [
+              43.709,
+              36.822882288228826
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suitability_class": 4,
+        "class_label": "Suitable",
+        "area_km2": 5.9858,
+        "zone_id": "Z0019",
+        "centroid_lon": 44.5571,
+        "centroid_lat": 36.826183,
+        "bbox_min_lon": 44.545,
+        "bbox_min_lat": 36.811881,
+        "bbox_max_lon": 44.567,
+        "bbox_max_lat": 36.844884,
+        "governorate": "Erbil",
+        "score_100": 77.646,
+        "val_ghi": 1861.679,
+        "min_ghi": 1813.47,
+        "max_ghi": 1864.97,
+        "val_dni": 1966.871,
+        "min_dni": 1807.62,
+        "max_dni": 1980.39,
+        "val_gti": 2108.5879,
+        "min_gti": 2016.55,
+        "max_gti": 2115.89,
+        "val_temperature": 18.7017,
+        "min_temperature": 18.12,
+        "max_temperature": 18.81,
+        "val_pvout": 1647.017,
+        "min_pvout": 1625.31,
+        "max_pvout": 1660.14,
+        "val_elevation": 854.6672,
+        "min_elevation": 804.6,
+        "max_elevation": 907.52,
+        "val_slope": 18.2246,
+        "min_slope": 11.61,
+        "max_slope": 23.71,
+        "val_landclass": 0.5502,
+        "min_landclass": 0.0,
+        "max_landclass": 0.6,
+        "val_soiltype": 8.5,
+        "min_soiltype": 8.5,
+        "max_soiltype": 8.5,
+        "val_dustsoiling": 0.8668,
+        "min_dustsoiling": 0.85,
+        "max_dustsoiling": 0.9,
+        "val_gridaccess": 14099.0107,
+        "min_gridaccess": 12689.11,
+        "max_gridaccess": 16229.18,
+        "pct_nodata": 0.0,
+        "pct_trees": 0.0,
+        "pct_cropland": 0.0,
+        "pct_grassland": 91.7,
+        "pct_forest": 8.3,
+        "pct_shrubland": 0.0,
+        "pct_bare": 0.0,
+        "pct_wetlands": 0.0,
+        "pct_water": 0.0,
+        "landclass_summary": "Grassland 91.7%, Forest 8.3%",
+        "city_distance_m": 10966.4564,
+        "border_distance_m": 24521.7426
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              44.556,
+              36.84488448844885
+            ],
+            [
+              44.556,
+              36.83388338833883
+            ],
+            [
+              44.545,
+              36.83388338833883
+            ],
+            [
+              44.545,
+              36.81188118811881
+            ],
+            [
+              44.567,
+              36.81188118811881
+            ],
+            [
+              44.567,
+              36.84488448844885
+            ],
+            [
+              44.556,
+              36.84488448844885
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }

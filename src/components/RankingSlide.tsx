@@ -15,17 +15,23 @@ const metricsInfo: Record<Metric, { label: string, type: 'higher' | 'lower' | 'r
   val_elevation: { label: 'Elevation', type: 'range', desc: 'Mid-altitude preferred (650-1200m optimal)' },
   val_dustsoiling: { label: 'Dust Intensity', type: 'lower', desc: 'Lower dust means less cleaning cost', categorical: { values: ['Low', 'Moderate', 'High', 'Very High'], order: ['Low', 'Moderate', 'High', 'Very High'] } },
   val_gridaccess: { label: 'Grid Distance', type: 'lower', desc: 'Closer to grid is better' },
-  val_landclass: { label: 'Land Cover Score', type: 'higher', desc: 'ESA WorldCover: Bare=1.0, Shrubland=0.7, Grassland=0.6' },
+  val_landclass: { label: 'Land Cover Score', type: 'higher', desc: 'Area-weighted: Bare×1.0 + Shrub×0.7 + Grass×0.6' },
   landclass_summary: { label: 'Land Cover', type: 'higher', desc: 'ESA WorldCover classes (display only)', categorical: { values: ['Bare', 'Grassland', 'Shrubland', 'Trees', 'Water', 'Other'], order: ['Bare', 'Grassland', 'Shrubland', 'Trees', 'Water', 'Other'] } },
-  val_soiltype: { label: 'Soil Type', type: 'higher', desc: 'Loam is optimal, Clay/Silt is poor', categorical: { values: ['Loam (Very High)', 'Loam/Steppe (High)', 'Sandy Loam (Moderate)', 'Sandy (Low)', 'Clay/Silt (Very Low)'], order: ['Loam (Very High)', 'Loam/Steppe (High)', 'Sandy Loam (Moderate)', 'Sandy (Low)', 'Clay/Silt (Very Low)'] } },
+  val_soiltype: { label: 'Soil Type', type: 'higher', desc: 'Loam is optimal, rocky/marginal soils are poor', categorical: { values: ['Loam (Very High)', 'Steppe/Loam (High)', 'Calcareous (Moderate)', 'Rocky/Marginal (Low)', 'Clay/Silt (Very Low)'], order: ['Loam (Very High)', 'Steppe/Loam (High)', 'Calcareous (Moderate)', 'Rocky/Marginal (Low)', 'Clay/Silt (Very Low)'] } },
   area_km2: { label: 'Area', type: 'higher', desc: 'Larger sites accommodate more capacity' }
 };
 
 const getSoilTypeLabel = (val: number): string => {
+  // WRB 2014 soil classification bands (mapped from Iraq_WRB2014.bin scores):
+  //   9.5 = Cambisols (loamy, well-structured)          → Loam (Very High)
+  //   8.5 = Kastanozems (dry steppe loam)               → Steppe/Loam (High)
+  //   5.0–5.5 = Calcisols / Gypsisols (calcareous)      → Calcareous (Moderate)
+  //   4.0–4.5 = Leptosols / Regosols / Arenosols /
+  //             Solonetz / Anthrosols (shallow/rocky)    → Rocky/Marginal (Low)
   if (val >= 9) return 'Loam (Very High)';
-  if (val >= 8) return 'Loam/Steppe (High)';
-  if (val >= 6) return 'Sandy Loam (Moderate)';
-  if (val >= 4) return 'Sandy (Low)';
+  if (val >= 8) return 'Steppe/Loam (High)';
+  if (val >= 5) return 'Calcareous (Moderate)';
+  if (val >= 4) return 'Rocky/Marginal (Low)';
   return 'Clay/Silt (Very Low)';
 };
 
@@ -709,7 +715,7 @@ return (
                   </tr>
                   <tr>
                     <td className="py-2 pr-4 font-mono text-gray-800">soiltype</td>
-                    <td className="py-2 pr-4 text-gray-600">index</td>
+                    <td className="py-2 pr-4 text-gray-600">WRB score</td>
                     <td className="py-2 pr-4 text-emerald-600 font-medium">7 – 10</td>
                     <td className="py-2 text-gray-500">4 – 10</td>
                   </tr>
@@ -727,9 +733,9 @@ return (
                   </tr>
                   <tr>
                     <td className="py-2 pr-4 font-mono text-gray-800">landclass</td>
-                    <td className="py-2 pr-4 text-gray-600">class</td>
-                    <td className="py-2 pr-4 text-emerald-600 font-medium">Bare/Shrub/Grass</td>
-                    <td className="py-2 text-red-500">Excluded</td>
+                    <td className="py-2 pr-4 text-gray-600">score (0–1)</td>
+                    <td className="py-2 pr-4 text-emerald-600 font-medium">0.6 – 1.0</td>
+                    <td className="py-2 text-gray-500">0.0 – 1.0</td>
                   </tr>
                 </tbody>
               </table>
@@ -750,11 +756,11 @@ return (
                 </div>
                 <div className="space-y-2">
                   <div><span className="font-semibold text-gray-700">elevation (m):</span> Digital elevation model</div>
-                  <div><span className="font-semibold text-gray-700">slope (degrees):</span> Terrain slope, calculated using max resampling to capture steepest terrain within each 1km pixel</div>
-                  <div><span className="font-semibold text-gray-700">soiltype (index):</span> Soil classification mapped to suitability index (4-10), using nearest-neighbor resampling</div>
+                  <div><span className="font-semibold text-gray-700">slope (degrees):</span> Terrain slope, bilinear (mean) resampling — represents average slope across each ~1km grid pixel for a representative site estimate</div>
+                  <div><span className="font-semibold text-gray-700">soiltype (WRB score):</span> Iraq WRB 2014 soil codes mapped to suitability scores: Cambisols=9.5 (loam, best), Kastanozems=8.5 (steppe loam), Calcisols=5.5 / Gypsisols=5.0 (calcareous), Solonetz=4.5 / Leptosols/Regosols/Arenosols=4.0 (rocky/marginal). Nearest-neighbour resampling preserves soil class boundaries.</div>
                   <div><span className="font-semibold text-gray-700">dustsoiling (Dust Index):</span> Mean of all available monthly dust files (2020-2025), representing average dust intensity from satellite observations</div>
                   <div><span className="font-semibold text-gray-700">gridaccess (km):</span> Euclidean distance to nearest 132kV transmission line, calculated via distance transform</div>
-                  <div><span className="font-semibold text-gray-700">landclass (class):</span> Land use classification: Bare/Sparse (1.0), Shrubland (0.6), Grassland (0.5); Trees/Cropland/Forest/Water/Urban hard-excluded</div>
+                  <div><span className="font-semibold text-gray-700">landclass (score):</span> Area-weighted land cover suitability score. Computed as: (pct_bare×1.0 + pct_shrubland×0.7 + pct_grassland×0.6) / 100. Trees/Cropland/Forest/Water/Urban contribute 0.0</div>
                 </div>
               </div>
             </div>

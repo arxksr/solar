@@ -1,0 +1,167 @@
+
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: var(--font-sans); }
+  .container { padding: 1rem 0; }
+  .header { margin-bottom: 1.5rem; }
+  .header h2 { font-size: 18px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 4px; }
+  .header p { font-size: 13px; color: var(--color-text-secondary); }
+  .total-bar { display: flex; align-items: center; gap: 12px; padding: 10px 14px; background: var(--color-background-secondary); border-radius: var(--border-radius-md); margin-bottom: 1.5rem; border: 0.5px solid var(--color-border-tertiary); }
+  .total-label { font-size: 13px; color: var(--color-text-secondary); flex: 1; }
+  .total-val { font-size: 15px; font-weight: 500; }
+  .total-val.ok { color: #0F6E56; }
+  .total-val.bad { color: #993C1D; }
+  .progress { flex: 2; height: 6px; background: var(--color-border-tertiary); border-radius: 3px; overflow: hidden; }
+  .progress-fill { height: 100%; border-radius: 3px; transition: width 0.2s, background 0.2s; }
+  .vars-grid { display: flex; flex-direction: column; gap: 10px; }
+  .var-card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 12px 14px; }
+  .var-top { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 8px; }
+  .var-badge { min-width: 26px; height: 26px; border-radius: var(--border-radius-md); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 500; }
+  .var-info { flex: 1; }
+  .var-name { font-size: 14px; font-weight: 500; color: var(--color-text-primary); }
+  .var-optimal { font-size: 12px; color: var(--color-text-secondary); margin-top: 2px; line-height: 1.4; }
+  .var-weight-display { font-size: 14px; font-weight: 500; min-width: 38px; text-align: right; }
+  .slider-row { display: flex; align-items: center; gap: 8px; }
+  .slider-row input[type=range] { flex: 1; }
+  .btn-row { display: flex; gap: 8px; margin-top: 1.5rem; }
+  button { padding: 8px 16px; border: 0.5px solid var(--color-border-secondary); background: transparent; border-radius: var(--border-radius-md); font-size: 13px; cursor: pointer; color: var(--color-text-primary); }
+  button:hover { background: var(--color-background-secondary); }
+  .output-box { margin-top: 1.5rem; padding: 14px; background: var(--color-background-secondary); border-radius: var(--border-radius-md); border: 0.5px solid var(--color-border-tertiary); }
+  .output-box pre { font-family: var(--font-mono); font-size: 12px; color: var(--color-text-secondary); white-space: pre-wrap; word-break: break-all; line-height: 1.6; }
+  .copy-btn { float: right; font-size: 11px; padding: 4px 10px; margin-top: -2px; }
+  .section-label { font-size: 11px; font-weight: 500; color: var(--color-text-tertiary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
+</style>
+
+<div class="container">
+  <div class="header">
+    <h2>Solar suitability — MCDA weight configurator</h2>
+    <p>Adjust weights for each variable. Total must equal 100%. These feed into the Python overlay script.</p>
+  </div>
+
+  <div class="total-bar">
+    <span class="total-label">Total weight</span>
+    <div class="progress"><div class="progress-fill" id="pfill"></div></div>
+    <span class="total-val" id="total-display">100%</span>
+  </div>
+
+  <div class="section-label">Variables & weights</div>
+  <div class="vars-grid" id="vars-grid"></div>
+
+  <div class="btn-row">
+    <button onclick="resetDefaults()">Reset defaults</button>
+    <button onclick="normalise()">Auto-normalise to 100%</button>
+    <button onclick="generateCode()">Generate Python weights ↗</button>
+  </div>
+
+  <div class="output-box" id="output-box" style="display:none">
+    <button class="copy-btn" onclick="copyCode()">Copy</button>
+    <pre id="output-pre"></pre>
+  </div>
+</div>
+
+<script>
+const VARS = [
+  { id:"temperature",    label:"Air Temperature",          w:12, color:"#1D9E75", optimal:"Annual avg < 20 °C | July max 35–38 °C | Avoid > 45 °C" },
+  { id:"ghi",            label:"GHI — Global Horizontal",  w:15, color:"#EF9F27", optimal:"Optimal: 1,900–2,100 kWh/m²/yr" },
+  { id:"dni",            label:"DNI — Direct Normal",      w:13, color:"#EF9F27", optimal:"Optimal: 1,850–2,150 kWh/m²/yr" },
+  { id:"gti",            label:"GTI — Global Tilted",      w:10, color:"#EF9F27", optimal:"Optimal: 2,100–2,200 kWh/m²/yr" },
+  { id:"pvout",          label:"PVOUT — PV Power Output",  w:10, color:"#378ADD", optimal:"Optimal: 1,600–1,740 kWh/kWp/yr" },
+  { id:"elevation",      label:"Elevation",                w:8,  color:"#7F77DD", optimal:"Good: 400–800m | Optimal: 650–1,200m" },
+  { id:"slope",          label:"Mountain Slope",           w:8,  color:"#7F77DD", optimal:"Optimal: 0–5° | Moderate: 5–14° | Max: 20°" },
+  { id:"landclass",      label:"Land Use Class",           w:9,  color:"#639922", optimal:"Preferred: Barren > Brownfield > Grassland" },
+  { id:"soiltype",       label:"Soil Type",                w:6,  color:"#BA7517", optimal:"Loam 10/10 > Sandy Loam 9/10 > Silt Loam 8/10 | Avoid Clay 1/10" },
+  { id:"dustsoiling",    label:"Dust & Soiling Ratio",     w:4,  color:"#D85A30", optimal:"Low Khamasin/soiling frequency preferred" },
+  { id:"waterproximity", label:"Proximity to Water",       w:3,  color:"#1D9E75", optimal:"Closer water source = better (panel cleaning)" },
+  { id:"gridaccess",     label:"Grid Access",              w:2,  color:"#888780", optimal:"Proximity to existing transmission lines" },
+];
+
+const state = {};
+VARS.forEach(v => { state[v.id] = v.w; });
+
+function getTotal() { return Object.values(state).reduce((a,b)=>a+b,0); }
+
+function updateUI() {
+  const total = getTotal();
+  const pct = Math.min(100, total);
+  const fill = document.getElementById("pfill");
+  fill.style.width = pct + "%";
+  fill.style.background = total === 100 ? "#1D9E75" : "#D85A30";
+  const td = document.getElementById("total-display");
+  td.textContent = total + "%";
+  td.className = "total-val " + (total === 100 ? "ok" : "bad");
+
+  VARS.forEach(v => {
+    const el = document.getElementById("wd-" + v.id);
+    const sl = document.getElementById("sl-" + v.id);
+    if (el) { el.textContent = state[v.id] + "%"; el.style.color = v.color; }
+    if (sl) sl.value = state[v.id];
+  });
+}
+
+function buildGrid() {
+  const grid = document.getElementById("vars-grid");
+  VARS.forEach((v, i) => {
+    const card = document.createElement("div");
+    card.className = "var-card";
+    card.innerHTML = `
+      <div class="var-top">
+        <div class="var-badge" style="background:${v.color}22; color:${v.color}">${i+1}</div>
+        <div class="var-info">
+          <div class="var-name">${v.label}</div>
+          <div class="var-optimal">${v.optimal}</div>
+        </div>
+        <div class="var-weight-display" id="wd-${v.id}" style="color:${v.color}">${v.w}%</div>
+      </div>
+      <div class="slider-row">
+        <span style="font-size:11px;color:var(--color-text-tertiary)">0</span>
+        <input type="range" min="0" max="30" step="1" value="${v.w}" id="sl-${v.id}" oninput="onSlider('${v.id}', this.value)">
+        <span style="font-size:11px;color:var(--color-text-tertiary)">30</span>
+      </div>`;
+    grid.appendChild(card);
+  });
+}
+
+function onSlider(id, val) {
+  state[id] = parseInt(val);
+  updateUI();
+  document.getElementById("output-box").style.display = "none";
+}
+
+function resetDefaults() {
+  VARS.forEach(v => { state[v.id] = v.w; });
+  updateUI();
+  document.getElementById("output-box").style.display = "none";
+}
+
+function normalise() {
+  const total = getTotal();
+  if (total === 0) return;
+  VARS.forEach(v => { state[v.id] = Math.round((state[v.id] / total) * 100); });
+  // Fix rounding drift
+  const newTotal = getTotal();
+  if (newTotal !== 100) {
+    const first = VARS[0].id;
+    state[first] += (100 - newTotal);
+  }
+  updateUI();
+}
+
+function generateCode() {
+  const lines = ["VARIABLES = {"];
+  VARS.forEach(v => {
+    lines.push(`    "${v.id}": { "weight": ${(state[v.id]/100).toFixed(2)}, "label": "${v.label}" },`);
+  });
+  lines.push("}");
+  const code = lines.join("\n");
+  document.getElementById("output-pre").textContent = code;
+  document.getElementById("output-box").style.display = "block";
+}
+
+function copyCode() {
+  const text = document.getElementById("output-pre").textContent;
+  navigator.clipboard.writeText(text).catch(()=>{});
+}
+
+buildGrid();
+updateUI();
+</script>
