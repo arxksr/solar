@@ -36,3 +36,4 @@ zone\ extractor/mcda_*.tif
 zone\ extractor/suitability_*.tif
 zone\ extractor/suitable_zones.*
 zone\ extractor/variables.txt
+.blackboxcli/

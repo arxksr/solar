@@ -5992,15 +5992,20 @@ export function SatelliteSlide({
 
       rasterCacheRef.current[config.file] = fileDataInfo;
       setRasterDataCache((prev) => ({ ...prev, [config.file]: fileDataInfo }));
-      // Also update tiffDataCache partially just for the min/max if not already there
-      setTiffDataCache((prev) => ({
-        ...prev,
-        [layerKey]: {
-          ...(prev[layerKey] || { url: "", coordinates: [] }),
-          actual_min: fileDataInfo.actual_min,
-          actual_max: fileDataInfo.actual_max,
-        },
-      }));
+      // Only update actual_min/max metadata — never create a partial entry with empty
+      // url/coordinates, as that would hide the active map layer when a location is selected.
+      setTiffDataCache((prev) => {
+        const existing = prev[layerKey];
+        if (!existing) return prev; // let loadLayer do the full write with url + coordinates
+        return {
+          ...prev,
+          [layerKey]: {
+            ...existing,
+            actual_min: fileDataInfo.actual_min,
+            actual_max: fileDataInfo.actual_max,
+          },
+        };
+      });
       return fileDataInfo;
     } catch (e) {
       console.error(`Failed to ensure raster info for ${layerKey}:`, e);
@@ -6153,10 +6158,6 @@ export function SatelliteSlide({
   const extractLocationData = async (lat: number, lng: number) => {
     console.log("[DEBUG] extractLocationData called:", lat, lng);
     const data = await updateLocationData(lat, lng, CORE_PANEL_LAYERS);
-    if (activeLayer && !CORE_PANEL_LAYERS.includes(activeLayer)) {
-      const layerData = await updateLocationData(lat, lng, [activeLayer]);
-      Object.assign(data, layerData);
-    }
     console.log("[DEBUG] extractLocationData data:", data);
     setShowCityDetails(false);
     setSelectedLocationData({ lat, lng, data });
@@ -6193,13 +6194,6 @@ export function SatelliteSlide({
         .then(newData => setSelectedLocationData(prev => prev ? ({ ...prev, data: { ...prev.data, ...newData } }) : null));
     }
   }, [showSelectedTempYears]);
-
-  useEffect(() => {
-    if (selectedLocationData && activeLayer && !CORE_PANEL_LAYERS.includes(activeLayer as LayerType)) {
-      updateLocationData(selectedLocationData.lat, selectedLocationData.lng, [activeLayer as LayerType])
-        .then(newData => setSelectedLocationData(prev => prev ? ({ ...prev, data: { ...prev.data, ...newData } }) : null));
-    }
-  }, [activeLayer]);
 
   const goToDemoStep = (step: number) => {
     const targetStep = Math.max(0, Math.min(5, step));
@@ -7756,23 +7750,6 @@ export function SatelliteSlide({
                     </div>
                   );
                 })}
-
-              {/* Active Layer Display */}
-              {activeLayer && layerConfigs[activeLayer] && selectedLocationData.data[activeLayer] !== undefined && (
-                <div className="p-3 bg-amber-50 rounded-lg border border-amber-200">
-                  <div className="text-[10px] font-bold text-amber-600 uppercase tracking-wider mb-1">
-                    {layerConfigs[activeLayer].shortName}
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-sm font-bold text-gray-900">
-                      {selectedLocationData.data[activeLayer].toFixed(2)}
-                    </span>
-                    <span className="text-xs text-gray-500">
-                      {layerConfigs[activeLayer].unit}
-                    </span>
-                  </div>
-                </div>
-              )}
 
               {/* Yearly Rainfall */}
               <div className="p-2 bg-blue-50 rounded-lg">

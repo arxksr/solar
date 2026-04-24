@@ -7,7 +7,7 @@ export default defineConfig(({mode, command}) => {
   const env = loadEnv(mode, '.', '');
   return {
     plugins: [react(), tailwindcss()],
-    base: command === 'build' ? '/solar-atlas-explorer/' : '/',
+    base: command === 'build' ? '/solar/' : '/',
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
     },
